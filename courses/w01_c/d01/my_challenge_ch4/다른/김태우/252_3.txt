@@ -1,0 +1,23 @@
+void textbook252_text3() {
+	int array[6] = {0, };
+
+	for (int i = 0; i < 6; i++) {
+		printf("로또번호 입력 : ");
+		scanf("%d", &array[i]);
+		for (int j = i-1; j >= 0; j--) {
+			if (j >= 0 && array[i] == array[j]) {
+				printf("같은 번호가 있습니다.\n"); 	// 중복이 있음
+				i--;
+				break;
+			}
+		}
+	}
+
+	printf("입력된 로또번호 : ");
+
+	for (int i = 0; i < 6; i++) {
+		printf("%d ", array[i]);
+	}
+	
+	
+}

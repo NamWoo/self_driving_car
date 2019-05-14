@@ -1,0 +1,29 @@
+void textbook252_test1() {
+	int point[5];
+	printf("5명의 심사위원의 점수 : ");
+	scanf("%d %d %d %d %d", &point[0], &point[1], &point[2], &point[3], &point[4]);
+
+	int index_min = 0, index_max = 0;
+	for (int i = 1; i < 5; i++) {
+		if (point[index_min] > point[i]) {
+			index_min = i;
+		}
+		if (point[index_max] < point[i]) {
+			index_max = i;
+		}
+	}
+
+	printf("유효점수 : ");
+	int sum = 0;
+	for (int i = 0; i < 5; i++) {
+		if (i != index_min && i != index_max) {
+			sum += point[i];
+			printf("%d ", point[i]);
+		}
+	}
+
+
+	printf("\n평균 : %.1f", sum/3.0);
+
+
+}
