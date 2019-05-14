@@ -11,7 +11,7 @@
 ## 강의 진행중
 |index||Link|내용||
 |:---|:---:|:---|---:|:---|
-|||[L I N K](./courses/OT/OT.md)|첫 간단한 오티||
+||OT|[L I N K](./courses/OT/OT.md)|첫 간단한 오티||
 |Week 1 - C Language|Day 1|[L I N K](./courses/w01_c/w01d01.md)|~112p 4.1 논리연산자까지
 ||Day 2|[L I N K](./courses/w01_C/w01d02.md)|~240p 8.1 배열선언까지
 ||Day 3|[L I N K]
