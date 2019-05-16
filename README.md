@@ -10,8 +10,20 @@
 
 
 ## 강의 진행중
-|index||Link|||
-|:---|:---|:---|---:|:---|
-||OT|[L I N K](./courses/OT/OT.md)|첫 간단한 오티
+
+
+* OT 첫 간단한 오티
+  * [L I N K](./courses/OT/OT.md)
+* Week 1 - C Language
+  * [L I N K](./courses/w01.md)
+* Week 2 - C for embeded
+  * [L i n k]
+
+
+
+
+|index||Link|내용|
+|:---|:---|:---:|:---:|
+|!|OT|[L I N K](./courses/OT/OT.md)|첫 간단한 오티
 |Week 1|C Language|[L I N K](./courses/w01.md)|C언어 집중교육
-|Week 2|C for embeded
+|Week 2|C for embeded|[L I N K]|임베디드까지?
