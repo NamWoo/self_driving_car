@@ -15,7 +15,7 @@
 |Week 1 - C Language|Day 1|[L I N K](./courses/w01_c/w01d01.md)|~112p 4.1 논리연산자까지
 ||Day 2|[L I N K](./courses/w01_c/w01d02.md)|~240p  8.1 배열
 ||Day 3|[L I N K](./courses/w01_c/w01d03.md)|~360p 12.1 배열, 포인터, 문자열
-||Day 4|[L I N K]
+||Day 4|[L I N K](./courses/w01_c/w01d04.md)|
 ||Day 5|[L I N K]
 |Week 2 - C embeded|Day 1|
 |C++ Language|
