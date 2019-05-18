@@ -9,21 +9,17 @@
 (.feat수업에 임하는 나의 자세)
 
 
-## 강의 진행중
 
-
-* OT 첫 간단한 오티
-  * [L I N K](./courses/OT/OT.md)
-* Week 1 - C Language
-  * [L I N K](./courses/w01.md)
-* Week 2 - C for embeded
-  * [L i n k]
-
-
-
-
-|index||Link|내용|
+|index|course|Link|내용|
 |:---|:---|:---:|:---:|
 |!|OT|[L I N K](./courses/OT/OT.md)|첫 간단한 오티
-|Week 1|C Language|[L I N K](./courses/w01.md)|C언어 집중교육
-|Week 2|C for embeded|[L I N K]|임베디드까지?
+|Week 1|C Programming|[L I N K](./courses/w01.md)|C언어 집중교육
+|Week 2|Embedded C|[L I N K]|
+|Week 3|C++ Programming|[L I N K]|
+|Week 4|Python Programming|[L I N K]|
+
+
+
+* [한컴MDS Academy 상세 커리큘럼](http://www.mdsacademy.co.kr/customer/board_view.php?board_idx=1585&schField=&schWord=nvidia&search_div=notice&size=10&page=1)
+
+<!-- ![af](http://www.mdsacademy.co.kr/admin/_upload/editor/201905170546527359.jpg) -->

@@ -6,6 +6,7 @@ int main(void)
 
 	ch = getchar();            // 함수가 반환하는 문자를 바로 저장
 	printf("입력한 문자 : ");
+	printf("입력한 문자 : %s",ch);
 	putchar(ch);               // 입력한 문자 출력
 	putchar('\n');             // 개행문자 출력
 
