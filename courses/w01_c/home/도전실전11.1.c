@@ -3,38 +3,19 @@
  
 #include <stdio.h> 
 
-int input_word(char *word);
-
 void main(void){
-	char *word;
-	int cnt;
-
-	cnt = input_word(word);
-	printf("%d",cnt);
+	int ch, acnt=0, temp=0;
 	
-}
-
-
-int input_word(char *word){
-	int cnt=0, i, res;
-	
-	while(1){
-		res = gets(&word);
-		if (res = -1) break;
-
-		prints()
+	while((ch=getchar()) != EOF){		
+		acnt++;
 		
-		printf("%s", word);
-
-				
-//		for (i=0; i=='\n'; i++){
-//			printf("%c", word[i]);
-////			
-//		}
-		
-		 
+		if (ch == '\n'){
+			if (temp<acnt) temp = acnt-1;
+			acnt=0;
+		}	
 	}
-		
+
+	printf("가장 긴 단어의 길이 : %d",temp);
 	
-	return cnt;
 }
+

@@ -19,7 +19,7 @@ int main(void)
 		weight *= 10;
 	}
 
-	printf("%d\n", tot + 9);
+	printf("%d\n", tot + 10);
 
 	return 0;
 }
