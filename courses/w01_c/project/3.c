@@ -30,16 +30,17 @@ void prt_init(void);							//최초 안내
 int input_member(Info **pary);            		//개인 정보 입력 
 
 int max_weight(Info **pary, int cnt);     		//입력 정보 중 최대몸무게 배열에서 위치(index) 반환
-int max_bmi(Info **pary, int cnt);
+int max_bmi(Info **pary, int cnt);				//입력 정보 중 최대bmi 배열에서 위치(index) 반환
 
 double average_weight(Info **pary, int cnt);  	//평균 체중 반환
 double average_height(Info **pary, int cnt);	//평균 키 반환 
 double average_age(Info **pary, int cnt);		//평균 나이 반환 
 double average_bmi(Info **pary, int cnt);		//평균 bmi 반환 
-void prt_average(void);
+void prt_average(Info **pary, int cnt);			//평균 반환값 출력 
 
 void chk_bmi(double check_bmi);
 void prt_info(Info **pary, int index);  		//입력 정보 출력
+void prt_list(Info **pary, int index);  		//입력 정보 출력
 void free_ary(Info **pary, int cnt);      		//동적할당 영역 해제
 
 
@@ -47,37 +48,23 @@ void free_ary(Info **pary, int cnt);      		//동적할당 영역 해제
 int main(void)
 {		
 	Info *pary[200];       						
-	double avg_height, avg_weight, avg_age, avg_bmi;
+
 	int max_index;		   
 	int cnt;                  
 	
-	prt_init();
-	cnt = input_member(pary);                // 인원 입력 후 회원 수 반환	
-	
-	avg_height = average_height(pary, cnt);         // 평균 체중 계산 후 반환
-	avg_weight = average_weight(pary, cnt); // 평균 체중 계산 후 반환
-	avg_age = average_age(pary, cnt); 
-	avg_bmi = average_bmi(pary, cnt); 
-	
-	max_index = max_bmi(pary, cnt);       // 최고 bmi 반환
+	prt_init();									//최초 안내문 출력 
+	cnt = input_member(pary);                	//입력 정보 인원 수 반환		
+	prt_average(pary, cnt);						//입력 정보 평균 값 출력 
 
-	printf("****총*입력*사람*수*%6d***************************\n", cnt);
-	Sleep(300);
-	printf("****평균*키*********%8.1f*************************\n", avg_height);
-	Sleep(300);
-	printf("****평균*체중*******%8.1f*************************\n", avg_weight);
-	Sleep(300);
-	printf("****평균*나이*******%8.1f*************************\n", avg_age);
-	Sleep(300);
-	printf("****평균*BMI********%8.1f*************************\n", avg_bmi);
-//	chk_bmi(avg_bmi);
-	prt_info(pary, max_index);
+	max_index = max_bmi(pary, cnt);       		//최고 bmi index 반환
+	prt_info(pary, max_index);					//index 정보 선택 출력 
+	prt_list(pary, cnt);						//index 전체 정보 출력 
+		
 	free_ary(pary, cnt);
-
 }
 
 // 최초 출력 값 
-void prt_init(void)
+void prt_init(void)								//안내문 꾸미기 
 {		
 	int i, j;
 	
@@ -94,11 +81,15 @@ void prt_init(void)
 
 	printf("*********************************************************\n");
 	Sleep(300);
-	printf("*********************************************************\n");
-	Sleep(300);
-	printf("****몸무게와*키를*가지고*당신의*비만도를*알려드립니다****\n");
+	printf("****항상 같은 일상에 지쳐가고 있진 않나요?***************\n");
 	Sleep(300);
 	printf("*********************************************************\n");
+	Sleep(300);
+	printf("****몸무게와*키를*가지고*당신의*비만도를*알려드릴테니****\n");
+	Sleep(300);
+	printf("*********************************************************\n");
+	Sleep(300);
+	printf("****스트레스를 운동으로 풀어봅시다.**********************\n");
 	Sleep(300);
 	printf("*********************************************************\n");
 	Sleep(300);
@@ -107,10 +98,10 @@ void prt_init(void)
 int input_member(Info **pary)
 {
 	Info *tp;
-	char name[20];            // 이름을 입력 받을 배열
+	char name[20];            
 	int age, height;
 	double weight, bmi, temp;
-	int i; // 인원수 누적변수
+	int i; 
 
 	for (i = 0;; i++)
 	{	
@@ -135,8 +126,8 @@ int input_member(Info **pary)
 		Sleep(300);
 		bmi = (weight/((height*0.01)*(height*0.01)));
 		printf("****당신의*BMI는****%5.1lf*******************************\n\n\n",bmi);
-		chk_bmi(bmi);
-
+		chk_bmi(bmi);		
+		
 		tp = (Info *)malloc(sizeof(Info));
 		strcpy(tp->name, name);
 		tp->age = age;
@@ -145,7 +136,7 @@ int input_member(Info **pary)
 		tp->bmi = bmi;
 		pary[i] = tp;
 	}
-
+	
 	return i;
 }
 
@@ -231,19 +222,71 @@ void free_ary(Info **pary, int cnt)
 
 void chk_bmi(double check_bmi)
 {
-	if (check_bmi < 18.5) printf("밥은 .. 먹고 다니니?...?\n\n\n");
-	else if (check_bmi < 24.9) printf("정상이네? (18.5 - 24.9)\n\n\n");
-	else if (check_bmi < 29.9) printf("과체중이야. 곧 훅간다 빨리 운동해 (25 - 29.9)\n\n\n");
-	else if (check_bmi < 34.9) printf("경도 비만 (1단계 비만) : 30 - 34.9\n\n\n");
-	else if (check_bmi < 39.9) printf("지금 관리 안하면 큰일 나! 중등 2단계 비만 (35 - 39.9)\n\n\n");
+	if (check_bmi < 18.5) printf("밥은 .. 먹고 다니니?...좀 더 먹어..\n\n\n");
+	else if (check_bmi < 24.9) printf("정상이네? 지금 유지 안하면 훅간다?(18.5 - 24.9)\n\n\n");
+	else if (check_bmi < 29.9) printf("과체중이야. 늦기전에 빨리 운동해 (25 - 29.9)\n\n\n");
+	else if (check_bmi < 34.9) printf("경도 비만 (1단계 비만) 비만! 비이~만~~! : 30 - 34.9\n\n\n");
+	else if (check_bmi < 39.9) printf("중도 비만.. 어쩌려고 그래.. (중등 2단계 비만) (35 - 39.9)\n\n\n");
 	else if (check_bmi < 40) printf("... 말 안해도 알지? 심각해\n\n\n"); //(check_bmi < 40)
+	else printf("키랑 몸무게 제대로 입력 한 거 맞어?");
 }
 
 
 void prt_info(Info **pary, int index)
 {
-	printf("> 회원 번호 : %s\n", pary[index]->name);
-	printf("> 이름 : %s\n", pary[index]->name);
-	printf("> 체중 : %.1lf\n", pary[index]->weight);
+	printf("****최대*체중*******%8.1f*****************************\n", pary[index]->weight);
+	Sleep(300);
+	printf("*********************************************************\n");
+	Sleep(300); 
+	printf("****최대*BMI********%8.1f*****************************\n", pary[index]->bmi);
+	Sleep(300);
+	printf("*********************************************************\n");
+	Sleep(300);
+}
+
+
+void prt_average(Info **pary, int cnt)
+{
+	double avg_height, avg_weight, avg_age, avg_bmi;
+	
+	avg_height = average_height(pary, cnt);         	// 평균 체중 계산 후 반환
+	avg_weight = average_weight(pary, cnt);				// 평균 체중 계산 후 반환
+	avg_age = average_age(pary, cnt); 
+	avg_bmi = average_bmi(pary, cnt);
+	
+	printf("*********************************************************\n");		
+	Sleep(300);
+	printf("*********************************************************\n");
+	Sleep(300);
+	printf("****총*입력*사람*수*%6d*******************************\n", cnt);
+	Sleep(300);
+	printf("****평균*키*********%8.1f*****************************\n", avg_height);
+	Sleep(300);
+	printf("****평균*체중*******%8.1f*****************************\n", avg_weight);
+	Sleep(300);
+	printf("****평균*나이*******%8.1f*****************************\n", avg_age);
+	Sleep(300);
+	printf("****평균*BMI********%8.1f*****************************\n", avg_bmi);
+	Sleep(300);
+	printf("*********************************************************\n");		
+	Sleep(300);
+}
+
+void prt_list(Info **pary, int cnt)
+{
+	int i; 
+	
+	printf("****%-4s %8s   %8s    %8s  %8s\n", "번호", "이름", "키(cm)", "체중(kg)", "BMI");
+	Sleep(300);
+	for (i=0; i<cnt; i++)
+	{		
+		printf("****%4d %8s %8d   %8.1f      %8.1f\n", i+1, pary[i]->name, pary[i]->height, pary[i]->weight, pary[i]->bmi);
+		Sleep(300);
+	}
+	printf("*********************************************************\n");
+	Sleep(300);
+	printf("****항상 같은 일상에 지쳐갈 때 운동으로 전환을 해봅시다**\n");
+	Sleep(300);
+	printf("*********************************************************\n");
 }
 
