@@ -14,7 +14,7 @@
 |:---|:---|:---:|:---:|
 |!|OT|[L I N K](./courses/OT/OT.md)|첫 간단한 오티
 |Week 1|C Programming|[L I N K](./courses/w01.md)|C언어 집중교육
-|Week 2|Embedded C|[L I N K]|
+|Week 2|Embedded C|[L I N K](./courses/w02.md)|임베디드 ARM9 실습
 |Week 3|C++ Programming|[L I N K]|
 |Week 4|Python Programming|[L I N K]|
 
