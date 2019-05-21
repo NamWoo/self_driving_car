@@ -82,16 +82,16 @@
 
 S3C2450 소자, mds2450 개발보드의 데이터시트를 보면 키배열이 아래와 같이 배치되어 있다.
 
-![](./switch_studying/20190521_235035_001.png)
+![](./switch_studying/20190521_235035_001.PNG)
 
 스위치 안 눌렀을 때는 계속 1 
-![](./switch_studying/02.png)
+![](./switch_studying/02.PNG)
 
 
 
 
 스위치 누르면 0 으로 바뀜!
-![](./switch_studying/03.png)
+![](./switch_studying/03.PNG)
 
 
 
