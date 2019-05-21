@@ -190,6 +190,10 @@ rGPFCON &= ~(0x3ff<<4);   //GPFCON[2:6} = 0, input
 
 
 
+---
+[다시 # week 2 index 로](../w02.md)
+
+[다시 # 전 과정 main 으로](../../README.md)
 
 
 
