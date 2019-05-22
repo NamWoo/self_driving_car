@@ -189,7 +189,7 @@ rGPFCON &= ~(0x3ff<<4);   //GPFCON[2:6} = 0, input
 
 
 
-스위치 제어 잘 되는 소스!
+내 뒤 능력자 `경호` 의 스위치 제어! 잘 되는 소스!
 ```c
 #include "2450addr.h"
 void Init(void);
