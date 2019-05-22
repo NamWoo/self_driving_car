@@ -1,0 +1,6 @@
+MDS2450 환경변수 
+
+bootcmd=tftp c0008000 zImage //원래있던거
+bootdelay=1
+
+set bootcmd "tftp 30000000 tftpboot;go 30000000"

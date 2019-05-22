@@ -188,93 +188,60 @@ rGPFCON &= ~(0x3ff<<4);   //GPFCON[2:6} = 0, input
 ```
 
 
+# 선생님 스위치 설명
 
-내 뒤 능력자 `경호` 의 스위치 제어! 잘 되는 소스!
-```c
-#include "2450addr.h"
-void Init(void);
-void LED_ON_Off(int num);
-int Get_Key_byPolling(void);
+<스위치 작동원리>
 
-void Main()
-{
-  int key;
-  Init();
+스위치를 누르지 않은 상태일때는 스위치에 해당하는 핀의 전압이 VDD이므로 1(HIGH) 상태이다.
 
-  rGPFDAT &= ~(0x1 << 7); // switch 7 data on
-  rGPGDAT &= ~(0x1);      //swtich 0 data on;
-  
-  while (1)
-  {
-    // rGPGDAT |= 0x1; //swtich 0 data off
-    key = Get_Key_byPolling();
-    LED_ON_Off(key);
-  }
-}
+스위치를 누를경우 스위치에 해당하는 핀이 4~8번일경우 GPF7과, 9~13번일경우 GPG0 과 연결되는데,
 
-void Init()
-{
-  //init led
-  rGPGCON |= 0x5500;
-  rGPGDAT |= 0xf0;
+GPF7, GPG0의 값이 0(LOW)이면, 연결된 핀의 전압이 0V가 되므로 0(LOW)상태가 된다.
 
-  //init switch (reserve)
-  rGPFCON |= 0xffff;
-  rGPFCON &= ~(0x3ff << 4);
+GPFDAT7, GPGDAT0을 1(HIGH)상태로 둘경우 연결된 핀의 전압은 여전히 VDD이므로 핀의 상태는 HIGH(1)가 된다.
 
-  //set  switch 7 output
-  rGPFCON &= ~(0x2 << 14);
 
-  //set  swtch 0  output
-  rGPGCON |= 0x1;
-}
-void LED_ON_Off(int num)
-{
-  rGPGDAT |= 0xf0;
-  switch (num)
-  {
-  case 0:
-    rGPGDAT &= (0xf0); // ----
-    break;
-  case 1:
-    rGPGDAT &= (0xe0); // ---0 4
-    break;
-  case 2:
-    rGPGDAT &= (0xd0); // --0- 3
-    break;
-  case 3:
-    rGPGDAT &= (0xb0); // -0-- 2
-    break;
-  case 4:
-    rGPGDAT &= (0x70); // 0--- 1
-    break;
-  case 5:
-    rGPGDAT &= (0x30); // 00--
-    break;
-  case 6:
-    rGPGDAT &= (0xc0); // --00
-    break;
-  }
-}
+ex)
+4번 스위치가 열린상태 : GPF2에 걸리는 전압이 VDD 이므로 1(HIGH)
 
-int Get_Key_byPolling(void)
-{
-  if ((rGPFDAT & 0x7) == 0x3) //4
-    return 1;
-  if ((rGPFDAT & 0xf) == 0x7) //3
-    return 2;
-  if ((rGPFDAT & 0x1f) == 0xf) //2
-    return 3;
-  if ((rGPFDAT & 0x3f) == 0x1f) //1
-    return 4;
-  if ((rGPFDAT & 0x7f) == 0x3f) //5
-    return 5;
-  return 6;
-}
-```
+4번스위치 닫힘, GPF7의 상태가 LOW : GPF2에 걸리는 전압이 0V 이므로 0(LOW)
+
+4번스위치 닫힘, GPF7의 상태가 HIGH : GPF2에 걸리는 전압이 VDD 이므로 1(HIGH)
+
+
+1. LED 설정
+
+GPGCON4~GPGCON7 을 01(output mode) 로 초기화
+
+GPGDAT의 4~7번 비트를 1(HIGH)로 초기화
+
+
+2. keypad 설정
+
+GPFCON2 ~ GPFCON6 을 00(input mode)로 초기화
+
+GPFDAT의 2~6번 비트는 회로상 이미 1(HIGH)상태
 
 
 
+GPFCON7, GPGCON0 을 01(output mode) 로 초기화
+
+GPFDAT의 7번비트를 0으로 할 경우 4~8번 스위치가 작동
+
+GPGDAT의 0번비트를 0으로 할 경우 9~13번 스위치가 작동
+
+
+
+3. GPFDAT
+
+회로상 GPFDAT의 2~6번비트는 기본상태가 1(HIGH)이다.
+
+각 핀에 해당하는 스위치를 누를 경우 해당 비트가 0(LOW)가 된다.
+
+ex)5번 스위치를 누를경우 GPFDAT의 3번비트만 0이 된다.
+
+
+조건문을 통해 각 스위치에 맞게 LED를 설정한다.
 
 
 
