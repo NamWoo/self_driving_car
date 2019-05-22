@@ -20,6 +20,7 @@
 
 
 
+* 같은 동기 : [동훈 Github](https://github.com/Baccas-Kim?tab=repositories)
 * [한컴MDS Academy 상세 커리큘럼](http://www.mdsacademy.co.kr/customer/board_view.php?board_idx=1585&schField=&schWord=nvidia&search_div=notice&size=10&page=1)
 
 <!-- ![af](http://www.mdsacademy.co.kr/admin/_upload/editor/201905170546527359.jpg) -->
