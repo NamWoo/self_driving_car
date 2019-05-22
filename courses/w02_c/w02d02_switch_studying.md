@@ -189,17 +189,8 @@ rGPFCON &= ~(0x3ff<<4);   //GPFCON[2:6} = 0, input
 
 
 
-
+스위치 제어 잘 되는 소스!
 ```c
-/***************************************************************
-*
-*	1. System Init Test 
-* 
-*	Created by MDS Tech. NT Div.(2Gr) (2015.10.30)
-*
-****************************************************************
-*/
-
 #include "2450addr.h"
 void Init(void);
 void LED_ON_Off(int num);
