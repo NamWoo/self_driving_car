@@ -21,6 +21,8 @@
 
 
 
+
+
 ## 교육과정 그리고 정리
 
 |index|course|Link|내용|
@@ -28,18 +30,19 @@
 |!|OT|[L I N K](./courses/OT/OT.md)|첫 간단한 오티
 |Week 1|C Programming|[L I N K](./courses/w01.md)|C언어 집중교육
 |Week 2|Embedded C|[L I N K](./courses/w02.md)|임베디드 S3C2450 실습
-|Week 3|C++ Programming|[L I N K](./courses/w03.md)|
+|Week 3|C++ Programming|[L I N K](./courses/w03.md)|C++언어 집중교육
 |Week 4|Python Programming|[L I N K]|
+
 
 
 
 ## 아카데미 동기들 GITHUB
 
 
-|쌤  |  |  |  ||  |문|
+|쌤|  |  |  ||  |문|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:
 |  |재필|이경|[창호](https://github.com/changhonam)||윤수|한빈|
-|우성|민준|나|봉준||용준||
+|우성|민준|[***나***](https://github.com/NamWoo)|[봉준](https://github.com/iambongjun)||용준||
 |윤형|[동훈](https://github.com/Baccas-Kim?tab=repositories)|경호|[태우](https://github.com/taewookimmr)||[보경](https://github.com/boku-kim)||
 |  |지선|소현|민지||현민|지윤|
 |강석|  |기찬|  ||상현|규식|
