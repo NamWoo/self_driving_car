@@ -29,9 +29,12 @@
 |:---|:---|:---:|:---:|
 |!|OT|[L I N K](./courses/OT/OT.md)|첫 간단한 오티
 |Week 1|C Programming|[L I N K](./courses/w01.md)|C언어 집중교육
-|Week 2|Embedded C|[L I N K](./courses/w02.md)|임베디드 S3C2450 실습
+|Week 2|Embedded C|[L I N K](./courses/w02.md)|ARM9 S3C2450 실습
 |Week 3|C++ Programming|[L I N K](./courses/w03.md)|C++언어 집중교육
-|Week 4|Python Programming|[L I N K]|
+|Week 4|Python Programming|[L I N K]|Python 집중교육
+|Week 5|||차량용 프로세서 디바이스제어
+|Week 6|||차량용 프로세서 이해 및 활용
+|...|
 
 
 
