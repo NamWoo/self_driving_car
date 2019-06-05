@@ -34,7 +34,7 @@
 |Week 4|Python Programming|[L I N K](./courses/w04.md)|Python 집중교육
 |Week 5|||차량용 프로세서 디바이스제어
 |Week 6|||차량용 프로세서 이해 및 활용
-|...|
+|...|||앞으로 대략 24주....
 
 
 
@@ -46,12 +46,12 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:
 |  |재필|이경|[창호](https://github.com/changhonam)||윤수|한빈|
 |우성|민준|[***나***](https://github.com/NamWoo)|[봉준](https://github.com/iambongjun)||용준||
-|윤형|[동훈](https://github.com/Baccas-Kim?tab=repositories)|경호|[태우](https://github.com/taewookimmr)||[보경](https://github.com/boku-kim)||
+|윤형|[동훈](https://github.com/Baccas-Kim?tab=repositories)|[경호](https://github.com/bkh751)|[태우](https://github.com/taewookimmr)||[보경](https://github.com/boku-kim)||
 |  |지선|소현|민지||현민||
 |강석|  |기찬|  ||지윤|규식|
 
 * 최초시작 25명
-  * 취업성공 -1명
-  * 중간포기 -1명
+  * 취업성공 -1명(3주차)
+  * 중간포기 -1명(2주차)
 * 현재 총원 23명
 
