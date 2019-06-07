@@ -1,0 +1,9 @@
+C:\>pip install pygame      : pygame 설치
+
+C:\Users>python
+
+>>> import pygame
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+동작확인 완료
