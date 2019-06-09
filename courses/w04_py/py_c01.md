@@ -143,4 +143,26 @@ Something that you import for the implementation
 
 ![](./c01/p01.png)
 
+![](./c01/p02_w.png)
+
+
+
+
+## Weekly Objectives
+
+
+* This week, we learn the first set of data structures: linked list, stack, and queue.
+* Objectives are
+  * Understanding the definition of abstract data types
+  * Firmly understanding how references work
+  * Understanding various linked list, stack, and queue structures
+    * Singly linked list, doubly linked list, circular linked list…
+    * Able to implement a stack and a queue with a list
+  * Understanding the procedures of linked list, stack, and queue management
+    * Insert, delete, search…
+    * Should be able to estimate the number of steps for inserts, deletes, and searches
+
+data structures: linked list, stack, and queue. 연관있는 3가지 선형적인 모습 가지고 있는
+
+## Array for List
 
