@@ -564,6 +564,17 @@ def my_gen():
 
 ### co-routine 코루틴 함수
 
+
+# asfasf
+## asfasf
+### afasf
+##### asfasfasf
+* fasfjaskfjklfjkaslfjaskll
+* fjasklfjafjas
+* afjklas
+
+
+
 * 위에서 한 `yield` 도 코루틴 개념으로 대기상태 존재. 
 * ***값을 반환했는데도 함수가 종료되지 않고 대기중인 상태***
 * 코루틴은 제너레이터 일종이지만 보다 특수
