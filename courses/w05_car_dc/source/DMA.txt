@@ -1,0 +1,19 @@
+
+터치패드 좌표
+https://d.pr/f/KWbYUM
+
+LCD 개념도
+https://d.pr/i/T5hTJf
+
+오디오 개념도
+https://d.pr/i/srh7lr+
+
+bin2c 소스
+https://d.pr/f/EZGlgg
+
+PWM 프로젝트 베이스 보
+스
+https://d.pr/f/n7atQa
+
+MS하이퍼터미널
+https://d.pr/f/aq6Pi4
