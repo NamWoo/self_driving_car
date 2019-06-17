@@ -37,8 +37,8 @@
 | Week 2 | Embedded C         |  [L I N K](./courses/w02.md)  | ARM9 S3C2450 실습 |
 | Week 3 | C++ Programming    |  [L I N K](./courses/w03.md)  |   C++언어 집중교육    |
 | Week 4 | Python Programming |  [L I N K](./courses/w04.md)  |   Python 집중교육   |
-| Week 5 | 차량용 프로세서 디바이스제어    |  [L I N K](./courses/w05.md)  |
-| Week 6 | 차량용 프로세서 이해 및 활용   |                               |
+| Week 5 | 차량용 프로세서 디바이스제어    |  [L I N K](./courses/w05.md)|
+| Week 6 | 차량용 프로세서 이해 및 활용   |[L I N K](./courses/w06.md)|
 | ...    |                    |                               | 앞으로 대략 23주....  |
 
 
