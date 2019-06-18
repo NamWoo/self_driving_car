@@ -38,7 +38,7 @@
 | Week 3 | C++ Programming    |  [L I N K](./courses/w03.md)  |   C++언어 집중교육    |
 | Week 4 | Python Programming |  [L I N K](./courses/w04.md)  |   Python 집중교육   |
 | Week 5 | 차량용 프로세서 디바이스제어    |  [L I N K](./courses/w05.md)|
-| Week 6 | 차량용 프로세서 이해 및 활용   |[L I N K](./courses/w06.md)|
+| Week 6 | 차량용 프로세서 이해 및 활용   |[L I N K](./courses/w06.md)| 어셈블리어
 | ...    |                    |                               | 앞으로 대략 23주....  |
 
 
