@@ -1,0 +1,7 @@
+.DS_Store
+.Rhistory
+.cache/
+.Rproj.user
+.RData
+*.mp4
+*.exe

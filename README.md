@@ -37,8 +37,10 @@
 | Week 2 | Embedded C         |  [L I N K](./courses/w02.md)  | ARM9 S3C2450 실습 |
 | Week 3 | C++ Programming    |  [L I N K](./courses/w03.md)  |   C++언어 집중교육    |
 | Week 4 | Python Programming |  [L I N K](./courses/w04.md)  |   Python 집중교육   |
-| Week 5 | 차량용 프로세서 디바이스제어    |  [L I N K](./courses/w05.md)|
+| Week 5 | 차량용 프로세서 디바이스제어    |  [L I N K](./courses/w05.md)| 임베디드 리눅스 ARM 
 | Week 6 | 차량용 프로세서 이해 및 활용   |[L I N K](./courses/w06.md)| 어셈블리어
+| Week 7 | 리눅스 OS 프로그래밍   |[L I N K]| 쉘 스크립트
+| Week 8 | 자율주행기능구현을위한차량용SW개발|[L I N K]|Infineon AURIX 제어
 | ...    |                    |                               | 앞으로 대략 23주....  |
 
 
