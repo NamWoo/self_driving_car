@@ -8,7 +8,7 @@
 * [한컴MDS Academy, 상세 커리큘럼](http://www.mdsacademy.co.kr/customer/board_view.php?board_idx=1585&schField=&schWord=nvidia&search_div=notice&size=10&page=1)
 
 
-<img src="./t.jpg" width="60%" height="60%">
+<img src="./intro.jpg" width="60%" height="60%">
 
 * (.feat수업에 임하는 나의 자세)
 
@@ -32,18 +32,20 @@
 
 | index  | course             |             Link              |       내용        |
 | :----- | :----------------- | :---------------------------: | :-------------: |
-| !      | OT                 | [L I N K](./courses/OT/OT.md) |    첫 간단한 오티     |
-| Week 1 | C Programming      |  [L I N K](./courses/w01.md)  |    C언어 집중교육     |
-| Week 2 | Embedded C         |  [L I N K](./courses/w02.md)  | ARM9 S3C2450 실습 |
-| Week 3 | C++ Programming    |  [L I N K](./courses/w03.md)  |   C++언어 집중교육    |
-| Week 4 | Python Programming |  [L I N K](./courses/w04.md)  |   Python 집중교육   |
-| Week 5 | 차량용 프로세서 디바이스제어    |  [L I N K](./courses/w05.md)| 임베디드 리눅스 ARM 
-| Week 6 | 차량용 프로세서 이해 및 활용   |[L I N K](./courses/w06.md)| 어셈블리어
-| Week 7 | 리눅스 OS 프로그래밍   |[L I N K]| 쉘 스크립트
-| Week 8 | 자율주행기능구현을위한차량용SW개발|[L I N K]|Infineon AURIX 제어
-| ...    |                    |                               | 앞으로 대략 23주....  |
+| !      | OT                 | [L I N K]|    첫 간단한 오티     | 
+| Week 1 | C Programming      | [L I N K](./courses/w01.md)  |    C언어 집중교육     |
+| Week 2 | Embedded C         | [L I N K](./courses/w02.md)  | ARM9 S3C2450 실습 |
+| Week 3 | C++ Programming    | [L I N K](./courses/w03.md)  |   C++언어 집중교육    |
+| Week 4 | Python Programming | [L I N K](./courses/w04.md)  |   Python 집중교육   |
+| Week 5 | 차량용 프로세서 디바이스제어    |[L I N K]| 임베디드 리눅스 ARM 
+| Week 6 | 차량용 프로세서 이해 및 활용   |[L I N K]| 리눅스 포팅, 어셈블리어
+| Week 7 | 리눅스 OS 프로그래밍   |[L I N K]| 리눅스 프로그래밍, 쉘 스크립트
+| Week 8 | 자율주행기능구현을위한차량용SW개발|[L I N K]|Infineon AURIX, Lauterbach, Trace32
+| ...    |                    |                               | 앞으로 11월까지....  |
 
+<!-- (./courses/OT/OT.md) -->
 
+          ***정리 밀렸다.. 다시 하나씩 복구 시작!***
 
 |||
 |:---:|:---:|
@@ -54,21 +56,25 @@
 
 ## 아카데미 동기들 GITHUB
 
-* 현재 총원 23명
+<!-- * 현재 총원 23명
 * git 을 전혀 안쓰는 친구들이 대부분 아니 거의 전부였기에
   1. 열심히 전파해서 가입도모!
   2. Team Proj 진행!
   3. 그리고 merge의 세계로 ~~ 빠뜨리쟈!
-     * 이땐 크라켄? 소스트리?
+     * 이땐 크라켄? 소스트리? -->
 
 |  샘  |                                      |                                     |                                      |       |                                    |                문                |
 |:---:| :----------------------------------: | :---------------------------------: | :----------------------------------: | :---: | :--------------------------------: | :-----------------------------: |
 |      | [재필](https://github.com/seomyunfeel) | [이경](https://github.com/leekyung91) | [창호](https://github.com/changhonam)  |       |  [윤수](https://github.com/susu210)  | [한빈](https://github.com/Mombin) |
-| 우성 | [민준](https://github.com/KimMinJoon)  |   [남우](https://github.com/NamWoo)   | [봉준](https://github.com/iambongjun)  |       | [용준](https://github.com/chrno0621) |                                 |
-| 윤형 |    [동훈](https://github.com/d-h-k)    |   [경호](https://github.com/bkh751)   | [태우](https://github.com/taewookimmr) |       | [보경](https://github.com/boku-kim)  |                                 |
+| 우성 | [민준](https://github.com/KimMinJoon)  |   [남우](https://github.com/NamWoo)   | [봉준](https://github.com/iambongjun)  |       | [동훈](https://github.com/d-h-k)|                                 |
+| 윤형 |        |   [경호](https://github.com/bkh751)   | [태우](https://github.com/taewookimmr) |       | [보경](https://github.com/boku-kim)  |                                 |
 |      |   [지선](https://github.com/LJSsun)    | [소현](https://github.com/So-Is-Cow)  |  [민지](https://github.com/youminji)   |       |                 현민                 |                                 |
-| 강석 |                                      |  [기찬](https://github.com/allowme2)  |                                      |       |                 지윤                 |               규식                |
+| 강석 |                                      |  |                                      |       |                 지윤                 |               규식                |
 
-<!-- * 최초시작 25명
-  * 취업성공 -1명(3주차)
-  * 중간포기 -1명(2주차) -->
+* 최초시작 25명, 현재는 21명
+  * 취업 2명(3주차, 8주차)
+  * 더 넓은 세상으로 2명(2주차, 8주차)
+<!-- * 취업성공
+  * [용준](https://github.com/chrno0621)
+* 더 넓은 세상
+  * [기찬](https://github.com/allowme2)   -->
