@@ -25,27 +25,47 @@
 
 * 총 6개월 과정 (일 8시간, 총 24주)
 * 단계별로 여러 보드를 다루면서 학습하고 궁극적으로는 NVIDIA TX2 보드로 Embedded 환경에서 머신러닝을 가지고 전력최적화 s/w최적화를 이루며 스스로 주행하는 차량구현을 모토로 한다.
-* C, C++, Python, git, linux, shell, machine learning, deep learning, keras, algorithm, optimization ...
+* C, C++, Python, git, linux, shell, make, machine learning, deep learning, keras, algorithm, optimization ...
 * 다뤄야하는 주제도 많고 거기다 어렵고 무겁고 끝도 없고...
 
 >버티는게 이기는거다. 매일매일 쏟아지는 지식들 속에서 흘려 버릴건 흘리고 새로운 걸로 다시 퐉퐉 채우면서 정리를 하자! 나중에 다시 보고 되새김하며 주어담길 바라며 ***과정이 끝날 즈음 남우에게 시작 때 남우가***
 
-| index  | course             |             Link              |       내용        |
-| :----- | :----------------- | :---------------------------: | :-------------: |
+| Week| course             |        Abstract        |실습장비|강사님|
+|:---:| :----------------- | :-------------: |:---:|:---:|
+| 0 | OT                 |   첫 오리엔테이션
+| 1 | [C Programming](./courses/w01.md)        | C언어 집중교육           |               |김성영|
+| 2 | [Embedded C](./courses/w02.md)           | Embedded C언어 집중교육  |ARM9 S3C2450 MDS2450 |김성영|
+| 3 | [C++ Programming ](./courses/w03.md)     | C++언어 집중교육    ||서광원|
+| 4 | [Python Programming ](./courses/w04.md)  | Python 집중교육   ||서영진|
+| 5 | [차량용 프로세서 디바이스제어]()           | 임베디드 리눅스 ARM |ARM9 S3C2450 MDS2450|가일|
+| 6 | [차량용 프로세서 이해 및 활용]()           | 리눅스 포팅, 어셈블리어|ARM9 S3C2450 MDS2450|가일|
+| 7 | [차량용 OS 시스템 프로그래밍]()           | 리눅스 프로그래밍, 쉘 스크립트|ARM9 S3C2450 MDS2450 |서광원|
+| 8 | [자율주행기능구현을위한차량용SW개발]()     |인피니온보드 시스템 이해 그리고 실습|Infineon AURIX TC27CA, Lauterbach Trace32|황호현
+| 9 | [차량용 OS 디바이스 프로그래밍]()         ||ARM9 S3C2450 MDS2450|김성영
+|...|                                         | 앞으로 11월까지....  |
+
+<!-- | Week | course             |             Link              |       내용        |강사|
+| :----- | :----------------- | :---------------------------: | :-------------: |:---:|
 | !      | OT                 | [L I N K]|    첫 간단한 오티     | 
-| Week 1 | C Programming      | [L I N K](./courses/w01.md)  |    C언어 집중교육     |
-| Week 2 | Embedded C         | [L I N K](./courses/w02.md)  | ARM9 S3C2450 실습 |
-| Week 3 | C++ Programming    | [L I N K](./courses/w03.md)  |   C++언어 집중교육    |
-| Week 4 | Python Programming | [L I N K](./courses/w04.md)  |   Python 집중교육   |
-| Week 5 | 차량용 프로세서 디바이스제어    |[L I N K]| 임베디드 리눅스 ARM 
-| Week 6 | 차량용 프로세서 이해 및 활용   |[L I N K]| 리눅스 포팅, 어셈블리어
-| Week 7 | 리눅스 OS 프로그래밍   |[L I N K]| 리눅스 프로그래밍, 쉘 스크립트
-| Week 8 | 자율주행기능구현을위한차량용SW개발|[L I N K]|Infineon AURIX, Lauterbach, Trace32
-| ...    |                    |                               | 앞으로 11월까지....  |
+| 1 | [C Programming]((./courses/w01.md)       | [L I N K](./courses/w01.md)  |    C언어 집중교육     |
+| 2 | Embedded C         | [L I N K](./courses/w02.md)  | ARM9 S3C2450 실습 |
+| 3 | C++ Programming    | [L I N K](./courses/w03.md)  |   C++언어 집중교육    |
+| 4 | Python Programming | [L I N K](./courses/w04.md)  |   Python 집중교육   |
+| 5 | 차량용 프로세서 디바이스제어    |[L I N K]| 임베디드 리눅스 ARM 
+| 6 | 차량용 프로세서 이해 및 활용   |[L I N K]| 리눅스 포팅, 어셈블리어
+| 7 | 리눅스 OS 프로그래밍   |[L I N K]| 리눅스 프로그래밍, 쉘 스크립트
+| 8 | 자율주행기능구현을위한차량용SW개발|[L I N K]|Infineon AURIX, Lauterbach, Trace32
+| 9 | |[L I N K]|Infineon AURIX, Lauterbach, Trace32
+
+| ...    |                    |                               | 앞으로 11월까지....  | -->
 
 <!-- (./courses/OT/OT.md) -->
 
-          ***정리 밀렸다.. 다시 하나씩 복구 시작!***
+* 사용 칩, 보드 상세정보
+* 강사님 상세정보
+
+***정리 밀렸다.. 다시 하나씩 복구 시작!***
+
 
 |||
 |:---:|:---:|
