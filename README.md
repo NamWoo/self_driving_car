@@ -32,16 +32,16 @@
 
 | Week| course             |        Abstract        |실습장비|강사님|
 |:---:| :----------------- | :-------------: |:---:|:---:|
-| 0 | OT                 |   첫 오리엔테이션
+| 0 | [OT](./courses/OT.md)                 |   첫 오리엔테이션
 | 1 | [C Programming](./courses/w01.md)        | C언어 집중교육           |               |김성영|
 | 2 | [Embedded C](./courses/w02.md)           | Embedded C언어 집중교육  |ARM9 S3C2450 MDS2450 |김성영|
 | 3 | [C++ Programming ](./courses/w03.md)     | C++언어 집중교육    ||서광원|
 | 4 | [Python Programming ](./courses/w04.md)  | Python 집중교육   ||서영진|
-| 5 | [차량용 프로세서 디바이스제어]()           | 임베디드 리눅스 ARM |ARM9 S3C2450 MDS2450|가일|
-| 6 | [차량용 프로세서 이해 및 활용]()           | 리눅스 포팅, 어셈블리어|ARM9 S3C2450 MDS2450|가일|
-| 7 | [차량용 OS 시스템 프로그래밍]()           | 리눅스 프로그래밍, 쉘 스크립트|ARM9 S3C2450 MDS2450 |서광원|
-| 8 | [자율주행기능구현을위한차량용SW개발]()     |인피니온보드 시스템 이해 그리고 실습|Infineon AURIX TC27CA, Lauterbach Trace32|황호현
-| 9 | [차량용 OS 디바이스 프로그래밍]()         ||ARM9 S3C2450 MDS2450|김성영
+| 5 | [차량용 프로세서 디바이스제어]           | 임베디드 리눅스 ARM |ARM9 S3C2450 MDS2450|가일|
+| 6 | [차량용 프로세서 이해 및 활용]           | 리눅스 포팅, 어셈블리어|ARM9 S3C2450 MDS2450|가일|
+| 7 | [차량용 OS 시스템 프로그래밍]           | 리눅스 프로그래밍, 쉘 스크립트|ARM9 S3C2450 MDS2450 |서광원|
+| 8 | [자율주행기능구현을위한차량용SW개발]     |인피니온보드 시스템 이해 그리고 실습|Infineon AURIX TC27CA, Lauterbach Trace32|황호현
+| 9 | [차량용 OS 디바이스 프로그래밍]         ||ARM9 S3C2450 MDS2450|김성영
 |...|                                         | 앞으로 11월까지....  |
 
 <!-- | Week | course             |             Link              |       내용        |강사|
