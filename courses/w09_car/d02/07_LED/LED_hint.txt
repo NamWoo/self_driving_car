@@ -1,0 +1,9 @@
+#define rGPLCON1 *(volatile unsigned long *)(kva + 4)
+#define rGPLDAT *(volatile unsigned long *)(kva + 8)
+#define rGPMCON *(volatile unsigned long *)(kva + 0x10)
+#define rGPMDAT *(volatile unsigned long *)(kva + 0x14)
+
+static void *kva;
+
+kva = ioremap(0x7F008810,28) ;
+	printk("kva = 0x%x\n",(int)kva);
