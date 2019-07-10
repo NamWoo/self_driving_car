@@ -3,14 +3,15 @@ obj-m += hello_param.o
 
 #KDIR	:= /lib/modules/$(shell uname -r)/build
 KDIR	:= /root/kernel-mds2450-3.0.22
-
+# PWD	:= $(shell pwd)
 APP  = hello_app
 
+
+
 default:
-	rm -rf *.ko
-	rm -rf *.mod.*
-	rm -rf .*.cmd
-	rm -rf *.o
+	rm -rf *.ko *.mod.* .*.cmd *.o
+	rm -rf Modules.symvers
+	rm -rf .tmp_versions
 	
 	$(MAKE) -C $(KDIR) SUBDIRS=$(PWD) modules
 	arm-none-linux-gnueabi-gcc -o $(APP) $(APP).c -static
@@ -19,10 +20,10 @@ default:
 	cp hello_app /tftpboot/rootfs/rootfs/
 	
 clean :	
-	rm -rf *.ko
-	rm -rf *.mod.*
-	rm -rf .*.cmd
-	rm -rf *.o
+	rm -rf *.ko *.mod.* .*.cmd *.o
+	rm -rf Modules.symvers
+	rm -rf .tmp_versions
+
 
 
 # all:
