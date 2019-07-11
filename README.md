@@ -24,24 +24,27 @@
 ## 교육과정 그리고 정리
 
 * 총 6개월 과정 (일 8시간, 총 24주)
-* 단계별로 여러 보드를 다루면서 학습하고 궁극적으로는 NVIDIA TX2 보드로 Embedded 환경에서 머신러닝을 가지고 전력최적화 s/w최적화를 이루며 스스로 주행하는 차량구현을 모토로 한다.
-* C, C++, Python, git, linux, shell, make, machine learning, deep learning, keras, algorithm, optimization ...
+* 단계별로 여러 보드를 다루면서 학습하고 Embedded 환경에서 머신러닝을 가지고 전력최적화 s/w최적화를 이루며 스스로 주행하는 차량구현을 모토로 한다.
+  * ARM9 s3c2450 MDS2450 board
+  * Infineon AURIX TC27CA + Lauterbach Trace32 debugging tool
+  * NVIDIA TX2
+* C, C++, Python, git, linux, shell, make, kernel, module, device driver, machine learning, deep learning, keras, algorithm, optimization ...
 * 다뤄야하는 주제도 많고 거기다 어렵고 무겁고 끝도 없고...
 
 >버티는게 이기는거다. 매일매일 쏟아지는 지식들 속에서 흘려 버릴건 흘리고 새로운 걸로 다시 퐉퐉 채우면서 정리를 하자! 나중에 다시 보고 되새김하며 주어담길 바라며 ***과정이 끝날 즈음 남우에게 시작 때 남우가***
 
 | Week| course             |        Abstract        |실습장비|강사님|
-|:---:| :----------------- | :-------------: |:---:|:---:|
+|:---:| :----------------- | :------------- |:---:|:---:|
 | 0 | [OT](./courses/OT.md)                 |   첫 오리엔테이션
 | 1 | [C Programming](./courses/w01.md)        | C언어 집중교육           |               |김성영|
 | 2 | [Embedded C](./courses/w02.md)           | Embedded C언어 집중교육  |ARM9 S3C2450 MDS2450 |김성영|
 | 3 | [C++ Programming ](./courses/w03.md)     | C++언어 집중교육    ||서광원|
 | 4 | [Python Programming ](./courses/w04.md)  | Python 집중교육   ||서영진|
-| 5 | [차량용 프로세서 디바이스제어]           | 임베디드 리눅스 ARM |ARM9 S3C2450 MDS2450|홍영기|
-| 6 | [차량용 프로세서 이해 및 활용]           | 리눅스 포팅, 어셈블리어|ARM9 S3C2450 MDS2450|홍영기|
-| 7 | [차량용 OS 시스템 프로그래밍]           | 리눅스 프로그래밍, 쉘 스크립트|ARM9 S3C2450 MDS2450 |서광원|
+| 5 | [차량용 프로세서 디바이스제어]           | 임베디드 리눅스, ARM 이해 |ARM9 S3C2450 MDS2450|홍영기|
+| 6 | [차량용 프로세서 이해 및 활용]           | 리눅스 포팅, 어셈블리어 실습|ARM9 S3C2450 MDS2450|홍영기|
+| 7 | [차량용 OS 시스템 프로그래밍]           | 리눅스 시스템 프로그래밍|ARM9 S3C2450 MDS2450 |서광원|
 | 8 | [자율주행기능구현을위한차량용SW개발]     |인피니온보드 시스템 이해 그리고 실습|Infineon AURIX TC27CA, Lauterbach Trace32|황호현
-| 9 | [차량용 OS 디바이스 프로그래밍]         ||ARM9 S3C2450 MDS2450|김성영
+| 9 | [차량용 OS 디바이스 프로그래밍]         |모듈, 디바이스 드라이버|ARM9 S3C2450 MDS2450|김성영
 |...|                                         | 앞으로 11월까지....  |
 
 <!-- | Week | course             |             Link              |       내용        |강사|
@@ -69,7 +72,7 @@
 
 |||
 |:---:|:---:|
-|나의 주간리포트|[L I N K]
+|나의 주간 생활, 공부 리포트|[L I N K]
 |||
 
 
@@ -89,12 +92,11 @@
 | 우성 | [민준](https://github.com/KimMinJoon)  |   [남우](https://github.com/NamWoo)   | [봉준](https://github.com/iambongjun)  |       | [동훈](https://github.com/d-h-k)|                                 |
 | 윤형 |        |   [경호](https://github.com/bkh751)   | [태우](https://github.com/taewookimmr) |       | [보경](https://github.com/boku-kim)  |                                 |
 |      |   [지선](https://github.com/LJSsun)    | [소현](https://github.com/So-Is-Cow)  |  [민지](https://github.com/youminji)   |       |                 현민                 |                                 |
-| 강석 |                                      |  |                                      |       |                 지윤                 |               규식                |
+| 강석 |                                      |[기찬](https://github.com/allowme2)|  |       |                 지윤                 |               규식                |
 
 * 최초시작 25명, 현재는 21명
   * 취업 2명(3주차, 8주차)
   * 더 넓은 세상으로 2명(2주차, 8주차)
 <!-- * 취업성공
   * [용준](https://github.com/chrno0621)
-* 더 넓은 세상
-  * [기찬](https://github.com/allowme2)   -->
+   -->

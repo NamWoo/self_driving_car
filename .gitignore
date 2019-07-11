@@ -6,3 +6,8 @@
 *.mp4
 *.exe
 photothumb.db
+*.cmd
+*.symvers
+*.order
+*.tmp_versions
+.vscode/
