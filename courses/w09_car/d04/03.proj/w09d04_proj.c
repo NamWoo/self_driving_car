@@ -31,11 +31,6 @@ static int my_release(struct inode *inode, struct file *filp);
 static int my_write(struct file *filp, const char *buf, size_t count, loff_t *f_pos);
 static int my_read(struct file *filp, char *buf, size_t count, loff_t *f_pos);
 
-static int my_open(struct inode *inode, struct file *filp);
-static int my_release(struct inode *inode, struct file *filp);
-static int my_write(struct file *filp, const char *buf, size_t count, loff_t *f_pos);
-static int my_read(struct file *filp, char *buf, size_t count, loff_t *f_pos);
-
 static int my_open(struct inode *inode, struct file *filp)
 {
     printk("Device has been opened\n");
@@ -74,7 +69,9 @@ struct file_operations my_fops = {
 
 static int __init my_init(void)
 {
-    printk("MY Module is up\n");
+    printk("----------------------------\n");
+    printk("[kernel][module] up\n");
+    printk("----------------------------\n");
     if((result = my_register_cdev()) < 0)
     {
         return result;
@@ -84,7 +81,9 @@ static int __init my_init(void)
 
 static void __exit my_exit(void)
 {
-    printk("The module is down\n");
+    printk("----------------------------\n");
+    printk("[kernel][module] down\n");
+    printk("----------------------------\n");
     cdev_del(&my_cdev);
     unregister_chrdev_region(my_dev, 1);
 }

@@ -19,9 +19,9 @@ int main(void)
 
     id = getpid();
 
-    printf("\n\n\n\n\n\n\n\n");
-    printf("\n [APP] = %d", id);
-    printf("\n\n\n\n\n\n\n\n");
+    printf("\n\n\n\n");
+    printf("\n [APP] 's id = %d", id);
+    printf("\n\n\n\n");
 
     fd = open("/dev/w09d04", O_RDWR);
     printf("fd = %d\n", fd);
