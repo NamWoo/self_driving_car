@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/w09_car/d04/02.3.godKH+app/timerTest_mod.ko := arm-none-linux-gnueabi-ld -EL -r  -T /root/kernel-mds2450-3.0.22/scripts/module-common.lds --build-id  -o /mnt/hgfs/w09_car/d04/02.3.godKH+app/timerTest_mod.ko /mnt/hgfs/w09_car/d04/02.3.godKH+app/timerTest_mod.o /mnt/hgfs/w09_car/d04/02.3.godKH+app/timerTest_mod.mod.o
