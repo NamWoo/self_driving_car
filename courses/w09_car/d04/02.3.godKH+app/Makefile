@@ -11,6 +11,7 @@ default:
 	cp timerTest_mod.ko /tftpboot/rootfs/rootfs/
 	cp timerTest_mod.c ~/kernel-mds2450-3.0.22/drivers/char/
 	cp app /tftpboot/rootfs/rootfs/
+
 clean:
 	$(MAKE) -C $(KDIR) SUBDIRS=$(PWD) clean
 
