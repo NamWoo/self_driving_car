@@ -1,1 +1,0 @@
-cmd_/mnt/hgfs/w09_car/d03/13_module/hello_param.ko := arm-none-linux-gnueabi-ld -EL -r  -T /root/kernel-mds2450-3.0.22/scripts/module-common.lds --build-id  -o /mnt/hgfs/w09_car/d03/13_module/hello_param.ko /mnt/hgfs/w09_car/d03/13_module/hello_param.o /mnt/hgfs/w09_car/d03/13_module/hello_param.mod.o

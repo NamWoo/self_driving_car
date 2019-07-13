@@ -1,1 +1,0 @@
-cmd_/mnt/hgfs/w09_car/d03/mydrv-ioctl/mydrv.ko := arm-none-linux-gnueabi-ld -EL -r  -T /root/kernel-mds2450-3.0.22/scripts/module-common.lds --build-id  -o /mnt/hgfs/w09_car/d03/mydrv-ioctl/mydrv.ko /mnt/hgfs/w09_car/d03/mydrv-ioctl/mydrv.o /mnt/hgfs/w09_car/d03/mydrv-ioctl/mydrv.mod.o
