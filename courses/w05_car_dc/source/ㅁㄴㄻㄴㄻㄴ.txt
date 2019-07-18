@@ -1,0 +1,45 @@
+파렛트(pallet)
+
+
+pallet
+Parrot
+
+rgb888 8 비트씩
+
+rgb568 비트씩
+
+rgb232 8비트는 이상하다? 어색하다? 
+
+HEART_ADDR
+
+tftp 37000000 zzz.wav
+
+
+tftp 37000000 MDS2450.bin; go 30000000
+
+mv.b 37000000 0 100000
+37번지에 0을 10만번 
+
+
+
+LINPUT1
+
+
+WM8960_LINVOL  //0-> 111111   3f
+
+
+
+
+
+
+---
+
+
+#define WM8960_LINPATH		0x20
+
+
+
+https://github.com/spotify/linux/blob/master/sound/soc/codecs/wm8960.h
+
+
+

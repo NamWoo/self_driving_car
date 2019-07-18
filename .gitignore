@@ -1,0 +1,13 @@
+.DS_Store
+.Rhistory
+.cache/
+.Rproj.user
+.RData
+*.mp4
+*.exe
+photothumb.db
+*.cmd
+*.symvers
+*.order
+*.tmp_versions
+.vscode/

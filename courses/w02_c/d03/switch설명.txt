@@ -1,0 +1,52 @@
+<스위치 작동원리>
+
+스위치를 누르지 않은 상태일때는 스위치에 해당하는 핀의 전압이 VDD이므로 1(HIGH) 상태이다.
+
+스위치를 누를경우 스위치에 해당하는 핀이 4~8번일경우 GPF7과, 9~13번일경우 GPG0 과 연결되는데,
+
+GPF7, GPG0의 값이 0(LOW)이면, 연결된 핀의 전압이 0V가 되므로 0(LOW)상태가 된다.
+
+GPFDAT7, GPGDAT0을 1(HIGH)상태로 둘경우 연결된 핀의 전압은 여전히 VDD이므로 핀의 상태는 HIGH(1)가 된다.
+
+
+ex)
+4번 스위치가 열린상태 : GPF2에 걸리는 전압이 VDD 이므로 1(HIGH)
+
+4번스위치 닫힘, GPF7의 상태가 LOW : GPF2에 걸리는 전압이 0V 이므로 0(LOW)
+
+4번스위치 닫힘, GPF7의 상태가 HIGH : GPF2에 걸리는 전압이 VDD 이므로 1(HIGH)
+
+
+1. LED 설정
+
+GPGCON4~GPGCON7 을 01(output mode) 로 초기화
+
+GPGDAT의 4~7번 비트를 1(HIGH)로 초기화
+
+
+2. keypad 설정
+
+GPFCON2 ~ GPFCON6 을 00(input mode)로 초기화
+
+GPFDAT의 2~6번 비트는 회로상 이미 1(HIGH)상태
+
+
+
+GPFCON7, GPGCON0 을 01(output mode) 로 초기화
+
+GPFDAT의 7번비트를 0으로 할 경우 4~8번 스위치가 작동
+
+GPGDAT의 0번비트를 0으로 할 경우 9~13번 스위치가 작동
+
+
+
+3. GPFDAT
+
+회로상 GPFDAT의 2~6번비트는 기본상태가 1(HIGH)이다.
+
+각 핀에 해당하는 스위치를 누를 경우 해당 비트가 0(LOW)가 된다.
+
+ex)5번 스위치를 누를경우 GPFDAT의 3번비트만 0이 된다.
+
+
+조건문을 통해 각 스위치에 맞게 LED를 설정한다.

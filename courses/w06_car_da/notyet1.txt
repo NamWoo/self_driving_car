@@ -1,0 +1,3 @@
+lrd r3, [r0]  @r0=0x34000000  @word 단어 16bit는 하프워드, 절반.word 32bit,
+
+lrd r3, [r0, #16]

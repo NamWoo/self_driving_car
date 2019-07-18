@@ -1,0 +1,10 @@
+f = open("D:\Python_Study\Testfile.txt", 'r+')
+print(f.read())
+print(f.tell())
+f.seek(0,0)
+
+f.write("c/c++")
+f.flush()
+f.seek(0,0)
+print(f.read())
+f.close()

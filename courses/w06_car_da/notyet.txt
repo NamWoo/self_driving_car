@@ -1,0 +1,63 @@
+도서. Embedded Recipes
+저자: 히언 지음 발행처: 코너북 발행연도: 2009
+ISBN: 9788996148913 자료형태: 도서  청구기호: 566.22-ㅎ987ㅇ
+
+도서. 케라스로 구현하는 딥러닝과 강화학습 : 신경망 기초부터 CNN, RNN, GAN, 단어 임베딩, 강화학습 배우기
+저자: 안토니오 걸리,수짓 팔 지음 ;김창엽 옮김 발행처: 에이콘 발행연도: 2018
+ISBN: 9788960772106SET 9791161750743 자료형태: 도서  청구기호: 004.73-ㄱ271ㅋ
+
+
+
+대출중
+도서. (파이썬과 케라스를 이용한) 딥러닝/ 강화학습 주식투자 : 퀀트 투자, 알고리즘 트레이딩을 위한 최첨단 해법 입문
+저자: 김문권 지음 발행처: 위키북스 발행연도: 2018
+ISBN: 9791158391065 자료형태: 도서  청구기호: 004.73-ㄱ733ㄷ
+
+
+dqn 컨티뉴어스
+pg 디스크릭트
+
+ddpg 합쳐보면 어떨까
+deep 
+
+
+
+https://d.pr/n/SswMUn+
+
+https://dnddnjs.gitbooks.io/rl/content/DP%20example.html
+
+
+https://github.com/youbeebee/ML-with-Python
+
+https://git.kernel.org/pub/scm/linux
+
+
+PyTorch를 활용한 강화학습 /심층강화학습 실전 입문 파이토치로 익히는 기초 강화학습 및 심층강화학습 알고리즘의 원리와 구현 위키북스 데이터 사이언스 시리즈 25
+
+
+따라 하면서 배우는 유니티 ML-Agents 유니티 머신러닝 에이전트를 이용한 딥러닝 강화학습 위키북스 데이터 사이언스 시리즈 23
+마이클 랜햄 지음 | 박진수, 김윤래 옮김 | 위키북스 | 2018년 11월 21일 출간
+
+
+http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391256&orderClick=LAH&Kc=
+
+
+
+MD의선택  무료배송  이벤트  경품  소득공제
+파이썬과 케라스를 이용한 딥러닝/강화학습 주식투자 퀀트 투자 알고리즘 트레이딩을 위한 최첨단 해법 입문 위키북스 데이터 사이언스 시리즈 15
+
+http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791158391065&orderClick=LAH&Kc=
+
+
+
+파이썬과 케라스로 배우는 강화학습
+
+
+http://recipes.egloos.com/
+
+
+https://www.facebook.com/groups/ReinforcementLearningKR/
+
+
+
+http://blog.naver.com/PostView.nhn?blogId=zzsza&logNo=221277537814&from=search&redirect=Log&widgetTypeCall=true&directAccess=false

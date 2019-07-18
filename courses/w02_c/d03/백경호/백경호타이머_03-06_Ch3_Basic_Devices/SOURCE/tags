@@ -1,0 +1,773 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+2450TEST	Makefile	/^2450TEST = MDS2450.bin$/;"	m
+AC_MICDATA	2450addr.h	489;"	d
+AC_PCMDATA	2450addr.h	488;"	d
+AP_RO	option.h	29;"	d
+AP_RW	option.h	28;"	d
+ASRCS	Makefile	/^ASRCS	= s3c2450_startup.S $/;"	m
+BIT_ADC	2450addr.h	732;"	d
+BIT_ALLMSK	2450addr.h	733;"	d
+BIT_BAT_FLT	2450addr.h	708;"	d
+BIT_CAM	2450addr.h	707;"	d
+BIT_DMA0	2450addr.h	718;"	d
+BIT_DMA1	2450addr.h	719;"	d
+BIT_DMA2	2450addr.h	720;"	d
+BIT_DMA3	2450addr.h	721;"	d
+BIT_EINT0	2450addr.h	701;"	d
+BIT_EINT1	2450addr.h	702;"	d
+BIT_EINT2	2450addr.h	703;"	d
+BIT_EINT3	2450addr.h	704;"	d
+BIT_EINT4_7	2450addr.h	705;"	d
+BIT_EINT8_23	2450addr.h	706;"	d
+BIT_IIC	2450addr.h	728;"	d
+BIT_LCD	2450addr.h	717;"	d
+BIT_NFCON	2450addr.h	725;"	d
+BIT_RTC	2450addr.h	731;"	d
+BIT_SDI	2450addr.h	722;"	d
+BIT_SPI0	2450addr.h	723;"	d
+BIT_SPI1	2450addr.h	730;"	d
+BIT_SUB_AC97	2450addr.h	736;"	d
+BIT_SUB_ADC	2450addr.h	740;"	d
+BIT_SUB_ALLMSK	2450addr.h	735;"	d
+BIT_SUB_CAM_C	2450addr.h	739;"	d
+BIT_SUB_CAM_P	2450addr.h	738;"	d
+BIT_SUB_ERR0	2450addr.h	748;"	d
+BIT_SUB_ERR1	2450addr.h	745;"	d
+BIT_SUB_ERR2	2450addr.h	742;"	d
+BIT_SUB_RXD0	2450addr.h	750;"	d
+BIT_SUB_RXD1	2450addr.h	747;"	d
+BIT_SUB_RXD2	2450addr.h	744;"	d
+BIT_SUB_TC	2450addr.h	741;"	d
+BIT_SUB_TXD0	2450addr.h	749;"	d
+BIT_SUB_TXD1	2450addr.h	746;"	d
+BIT_SUB_TXD2	2450addr.h	743;"	d
+BIT_SUB_WDT	2450addr.h	737;"	d
+BIT_TICK	2450addr.h	709;"	d
+BIT_TIMER0	2450addr.h	711;"	d
+BIT_TIMER1	2450addr.h	712;"	d
+BIT_TIMER2	2450addr.h	713;"	d
+BIT_TIMER3	2450addr.h	714;"	d
+BIT_TIMER4	2450addr.h	715;"	d
+BIT_UART0	2450addr.h	729;"	d
+BIT_UART1	2450addr.h	724;"	d
+BIT_UART2	2450addr.h	716;"	d
+BIT_USBD	2450addr.h	726;"	d
+BIT_USBH	2450addr.h	727;"	d
+BIT_WDT_AC97	2450addr.h	710;"	d
+CB	option.h	24;"	d
+CC	Makefile	/^CC = $(TOOLPATH)\/bin\/arm-none-eabi-gcc$/;"	m
+CNB	option.h	25;"	d
+ClearPending	2450addr.h	752;"	d
+DESC_SEC	option.h	23;"	d
+DOMAIN0	option.h	34;"	d
+DOMAIN0_ATTR	option.h	37;"	d
+DOMAIN1	option.h	35;"	d
+DOMAIN1_ATTR	option.h	38;"	d
+DOMAIN_CHK	option.h	32;"	d
+DOMAIN_FAULT	option.h	31;"	d
+DOMAIN_NOTCHK	option.h	33;"	d
+Dabort_Handler	exception.c	/^void Dabort_Handler(void)$/;"	f
+EXAMPLE	Main.c	16;"	d	file:
+Exception_Init	exception.c	/^void Exception_Init(void)$/;"	f
+FCLK	option.h	17;"	d
+HANDLER	s3c2450_startup.S	/^HANDLER HandlerDabort, HandleDabort$/;"	l
+HANDLER	s3c2450_startup.S	/^HANDLER HandlerFIQ, HandleFIQ$/;"	l
+HANDLER	s3c2450_startup.S	/^HANDLER HandlerIRQ, HandleIRQ$/;"	l
+HANDLER	s3c2450_startup.S	/^HANDLER HandlerPabort, HandlePabort$/;"	l
+HANDLER	s3c2450_startup.S	/^HANDLER HandlerSWI, HandleSWI$/;"	l
+HANDLER	s3c2450_startup.S	/^HANDLER HandlerUndef, HandleUndef$/;"	l
+HCLK	option.h	18;"	d
+HEAPEND	option.h	13;"	d
+Handle2D	s3c2450_startup.S	/^Handle2D:			.long	(_ISR_STARTADDRESS + 0xA0)$/;"	l
+HandleADC	s3c2450_startup.S	/^HandleADC:		.long	(_ISR_STARTADDRESS + 0x9c)$/;"	l
+HandleBATFLT	s3c2450_startup.S	/^HandleBATFLT:		.long	(_ISR_STARTADDRESS + 0x3c)$/;"	l
+HandleCAM	s3c2450_startup.S	/^HandleCAM:		.long	(_ISR_STARTADDRESS + 0x38)$/;"	l
+HandleCFCON	s3c2450_startup.S	/^HandleCFCON:		.long	(_ISR_STARTADDRESS + 0x6c)$/;"	l
+HandleDMA	s3c2450_startup.S	/^HandleDMA:		.long	(_ISR_STARTADDRESS + 0x64)$/;"	l
+HandleDabort	s3c2450_startup.S	/^HandleDabort:		.long   (_ISR_STARTADDRESS + 0x10)$/;"	l
+HandleEINT0	s3c2450_startup.S	/^HandleEINT0:		.long	(_ISR_STARTADDRESS + 0x20)$/;"	l
+HandleEINT1	s3c2450_startup.S	/^HandleEINT1:		.long	(_ISR_STARTADDRESS + 0x24)$/;"	l
+HandleEINT2	s3c2450_startup.S	/^HandleEINT2:		.long	(_ISR_STARTADDRESS + 0x28)$/;"	l
+HandleEINT3	s3c2450_startup.S	/^HandleEINT3:		.long	(_ISR_STARTADDRESS + 0x2c)$/;"	l
+HandleEINT4_7	s3c2450_startup.S	/^HandleEINT4_7:	.long	(_ISR_STARTADDRESS + 0x30)$/;"	l
+HandleEINT8_23	s3c2450_startup.S	/^HandleEINT8_23:	.long	(_ISR_STARTADDRESS + 0x34)$/;"	l
+HandleFIQ	s3c2450_startup.S	/^HandleFIQ:			.long   (_ISR_STARTADDRESS + 0x1c)$/;"	l
+HandleI2S0	s3c2450_startup.S	/^HandleI2S0:		.long	(_ISR_STARTADDRESS + 0xB8)$/;"	l
+HandleI2S1	s3c2450_startup.S	/^HandleI2S1:		.long	(_ISR_STARTADDRESS + 0xBc)$/;"	l
+HandleIIC	s3c2450_startup.S	/^HandleIIC:			.long	(_ISR_STARTADDRESS + 0x8c)$/;"	l
+HandleIIC1	s3c2450_startup.S	/^HandleIIC1:			.long	(_ISR_STARTADDRESS + 0xA4)$/;"	l
+HandleIRQ	s3c2450_startup.S	/^HandleIRQ:			.long   (_ISR_STARTADDRESS + 0x18)$/;"	l
+HandleLCD	s3c2450_startup.S	/^HandleLCD:		.long	(_ISR_STARTADDRESS + 0x60)$/;"	l
+HandleNFCON	s3c2450_startup.S	/^HandleNFCON:		.long	(_ISR_STARTADDRESS + 0x80)$/;"	l
+HandlePCM0	s3c2450_startup.S	/^HandlePCM0:		.long	(_ISR_STARTADDRESS + 0xB0)$/;"	l
+HandlePCM1	s3c2450_startup.S	/^HandlePCM1:		.long	(_ISR_STARTADDRESS + 0xB4)$/;"	l
+HandlePabort	s3c2450_startup.S	/^HandlePabort:		.long   (_ISR_STARTADDRESS + 0xc)$/;"	l
+HandleRSV1	s3c2450_startup.S	/^HandleRSV1:		.long	(_ISR_STARTADDRESS + 0xA8)$/;"	l
+HandleRSV2	s3c2450_startup.S	/^HandleRSV2:		.long	(_ISR_STARTADDRESS + 0xAc)$/;"	l
+HandleRTC	s3c2450_startup.S	/^HandleRTC:		.long	(_ISR_STARTADDRESS + 0x98)$/;"	l
+HandleReserved	s3c2450_startup.S	/^HandleReserved:	.long   (_ISR_STARTADDRESS + 0x14)$/;"	l
+HandleReset	s3c2450_startup.S	/^HandleReset:		.long   (_ISR_STARTADDRESS + 0x0)$/;"	l
+HandleSDI0	s3c2450_startup.S	/^HandleSDI0:		.long	(_ISR_STARTADDRESS + 0x74)$/;"	l
+HandleSDI1	s3c2450_startup.S	/^HandleSDI1:		.long	(_ISR_STARTADDRESS + 0x70)$/;"	l
+HandleSPI0	s3c2450_startup.S	/^HandleSPI0:		.long	(_ISR_STARTADDRESS + 0x78)$/;"	l
+HandleSPI1	s3c2450_startup.S	/^HandleSPI1:		.long	(_ISR_STARTADDRESS + 0x94)$/;"	l
+HandleSWI	s3c2450_startup.S	/^HandleSWI:			.long   (_ISR_STARTADDRESS + 0x8)$/;"	l
+HandleTICK	s3c2450_startup.S	/^HandleTICK:		.long	(_ISR_STARTADDRESS + 0x40)$/;"	l
+HandleTIMER0	s3c2450_startup.S	/^HandleTIMER0:		.long	(_ISR_STARTADDRESS + 0x48)$/;"	l
+HandleTIMER1	s3c2450_startup.S	/^HandleTIMER1:		.long	(_ISR_STARTADDRESS + 0x4c)$/;"	l
+HandleTIMER2	s3c2450_startup.S	/^HandleTIMER2:		.long	(_ISR_STARTADDRESS + 0x50)$/;"	l
+HandleTIMER3	s3c2450_startup.S	/^HandleTIMER3:		.long	(_ISR_STARTADDRESS + 0x54)$/;"	l
+HandleTIMER4	s3c2450_startup.S	/^HandleTIMER4:		.long	(_ISR_STARTADDRESS + 0x58)$/;"	l
+HandleUART0	s3c2450_startup.S	/^HandleUART0:		.long	(_ISR_STARTADDRESS + 0x90)$/;"	l
+HandleUART1	s3c2450_startup.S	/^HandleUART1:		.long	(_ISR_STARTADDRESS + 0x7c)$/;"	l
+HandleUART2	s3c2450_startup.S	/^HandleUART2:		.long	(_ISR_STARTADDRESS + 0x5c)$/;"	l
+HandleUART3	s3c2450_startup.S	/^HandleUART3:		.long	(_ISR_STARTADDRESS + 0x68)$/;"	l
+HandleUSBD	s3c2450_startup.S	/^HandleUSBD:		.long	(_ISR_STARTADDRESS + 0x84)$/;"	l
+HandleUSBH	s3c2450_startup.S	/^HandleUSBH:		.long	(_ISR_STARTADDRESS + 0x88)$/;"	l
+HandleUndef	s3c2450_startup.S	/^HandleUndef:		.long   (_ISR_STARTADDRESS + 0x4)$/;"	l
+HandleWDT	s3c2450_startup.S	/^HandleWDT:		.long	(_ISR_STARTADDRESS + 0x44)$/;"	l
+IISFIFO	2450addr.h	472;"	d
+IISFIFO	2450addr.h	474;"	d
+INCLUDE	Makefile	/^INCLUDE	=  -I$(TOPDIR) -I$(LIBCDIR)\/include -I$(LIBGCCDIR)\/include$/;"	m
+InitStacks	s3c2450_startup.S	/^InitStacks:$/;"	l
+IsrIRQ	s3c2450_startup.S	/^IsrIRQ: $/;"	l
+Key_Get_Pressed	Key.c	/^int Key_Get_Pressed()$/;"	f
+Key_Get_Pressed_with_LED	Key.c	/^void Key_Get_Pressed_with_LED()$/;"	f
+Key_Port_Init	Key.c	/^void Key_Port_Init(void)$/;"	f
+Key_Wait_Get_Pressed	Key.c	/^int Key_Wait_Get_Pressed()$/;"	f
+Key_Wait_Get_Released	Key.c	/^void Key_Wait_Get_Released()$/;"	f
+LD	Makefile	/^LD = $(TOOLPATH)\/bin\/arm-none-eabi-ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS	= --cref -Bstatic -nostartfiles -T S3C2450-RAM.ld -Map 2450main.map$/;"	m
+LIBC	Makefile	/^LIBC =$(TOOLPATH)\/arm-none-eabi\/lib\/libc.a$/;"	m
+LIBCDIR	Makefile	/^LIBCDIR =$(TOOLPATH)\/arm-none-eabi\/lib$/;"	m
+LIBGCC	Makefile	/^LIBGCC = $(TOOLPATH)\/lib\/gcc\/arm-none-eabi\/4.5.2\/libgcc.a$/;"	m
+LIBGCCDIR	Makefile	/^LIBGCCDIR =$(TOOLPATH)\/lib\/gcc\/arm-none-eabi\/4.5.2$/;"	m
+LIBUART	Makefile	/^LIBUART =  $(MY_LIB_PATH)\/libUart1.a$/;"	m
+Led_Display	Led.c	/^void Led_Display(int data)$/;"	f
+Led_Init	Led.c	/^void Led_Init()$/;"	f
+MY_LIB_PATH	Makefile	/^MY_LIB_PATH = $(TOPDIR)\/Libraries$/;"	m
+Macro_Check_Bit_Clear	macro.h	14;"	d
+Macro_Check_Bit_Set	macro.h	15;"	d
+Macro_Clear_Bit	macro.h	11;"	d
+Macro_Erase_Area	macro.h	7;"	d
+Macro_Invert_Bit	macro.h	12;"	d
+Macro_Set_Bit	macro.h	10;"	d
+Macro_Write_Area	macro.h	8;"	d
+Main	Main.c	/^void Main()$/;"	f
+Main	Main.c	/^void Main(void)$/;"	f
+NCB	option.h	26;"	d
+NCNB	option.h	27;"	d
+NFDATA	2450addr.h	205;"	d
+NULL	option.h	45;"	d
+OBJCOPY	Makefile	/^OBJCOPY	= $(TOOLPATH)\/bin\/arm-none-eabi-objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP	= $(TOOLPATH)\/bin\/arm-none-eabi-objdump$/;"	m
+OBJS	Makefile	/^OBJS	= ${SRCS:.c=.o} ${ASRCS:.S=.o}$/;"	m
+OCFLAGS	Makefile	/^OCFLAGS = -O binary -R .note -R .comment -S$/;"	m
+PCLK	option.h	19;"	d
+Pabort_Handler	exception.c	/^void Pabort_Handler(void)$/;"	f
+RW_CB	option.h	40;"	d
+RW_CNB	option.h	41;"	d
+RW_FAULT	option.h	43;"	d
+RW_NCNB	option.h	42;"	d
+RdURXH0	2450addr.h	295;"	d
+RdURXH0	2450addr.h	317;"	d
+RdURXH1	2450addr.h	297;"	d
+RdURXH1	2450addr.h	319;"	d
+RdURXH2	2450addr.h	299;"	d
+RdURXH2	2450addr.h	321;"	d
+ResetHandler	s3c2450_startup.S	/^ResetHandler:$/;"	l
+SDIDAT	2450addr.h	649;"	d
+SDIDAT	2450addr.h	652;"	d
+SMRDATA	s3c2450_startup.S	/^SMRDATA:$/;"	l
+SRCS	Makefile	/^SRCS	= Key.c Led.c Timer.c Main.c Uart.c exception.c$/;"	m
+SWI_Handler	exception.c	/^void SWI_Handler(void)$/;"	f
+TOOLPATH	Makefile	/^TOOLPATH = \/opt\/CodeSourcery\/Sourcery_G++_Lite$/;"	m
+TOPDIR	Makefile	/^TOPDIR =$(PWD)$/;"	m
+Timer_Delay	Timer.c	/^void Timer_Delay(int msec)$/;"	f
+Timer_Init	Timer.c	/^void Timer_Init(void)$/;"	f
+URXH0	2450addr.h	302;"	d
+URXH0	2450addr.h	324;"	d
+URXH1	2450addr.h	304;"	d
+URXH1	2450addr.h	326;"	d
+URXH2	2450addr.h	306;"	d
+URXH2	2450addr.h	328;"	d
+UTXH0	2450addr.h	301;"	d
+UTXH0	2450addr.h	323;"	d
+UTXH1	2450addr.h	303;"	d
+UTXH1	2450addr.h	325;"	d
+UTXH2	2450addr.h	305;"	d
+UTXH2	2450addr.h	327;"	d
+Uart_Get_Char	Uart.c	/^char Uart_Get_Char()$/;"	f
+Uart_Init	Uart.c	/^void Uart_Init(int baud)$/;"	f
+Uart_Printf	Uart.c	/^void Uart_Printf(char *fmt,...)$/;"	f
+Uart_Send_Byte	Uart.c	/^void Uart_Send_Byte(int data)$/;"	f
+Uart_Send_String	Uart.c	/^void Uart_Send_String(char *pt)$/;"	f
+Undef_Handler	exception.c	/^void Undef_Handler(void) $/;"	f
+WrUTXH0	2450addr.h	294;"	d
+WrUTXH0	2450addr.h	316;"	d
+WrUTXH1	2450addr.h	296;"	d
+WrUTXH1	2450addr.h	318;"	d
+WrUTXH2	2450addr.h	298;"	d
+WrUTXH2	2450addr.h	320;"	d
+_CMEMORY_STARTADDRESS	option.h	11;"	d
+_ISR_ENDADDRESS	option.h	9;"	d
+_ISR_STARTADDRESS	option.h	8;"	d
+_MMUTT_STARTADDRESS	option.h	12;"	d
+_SDRAM_STARTADDRESS	option.h	7;"	d
+__2450ADDR_H__	2450addr.h	7;"	d
+__LIBC_H__	libc.h	14;"	d
+__OPTION_H__	option.h	5;"	d
+_sbrk	s3c2450_startup.S	/^_sbrk:$/;"	l
+_start	s3c2450_startup.S	/^_start:$/;"	l
+abt_return	s3c2450_startup.S	/^abt_return: \/\/ no interrupt$/;"	l
+chk_off1	s3c2450_startup.S	/^ chk_off1:$/;"	l
+chk_off2	s3c2450_startup.S	/^ chk_off2:$/;"	l
+end_off	s3c2450_startup.S	/^end_off: \/\/ generic interrupt$/;"	l
+pISR_ADC	2450addr.h	697;"	d
+pISR_BAT_FLT	2450addr.h	673;"	d
+pISR_CAM	2450addr.h	672;"	d
+pISR_DABORT	2450addr.h	661;"	d
+pISR_DMA0	2450addr.h	683;"	d
+pISR_DMA1	2450addr.h	684;"	d
+pISR_DMA2	2450addr.h	685;"	d
+pISR_DMA3	2450addr.h	686;"	d
+pISR_EINT0	2450addr.h	666;"	d
+pISR_EINT1	2450addr.h	667;"	d
+pISR_EINT2	2450addr.h	668;"	d
+pISR_EINT3	2450addr.h	669;"	d
+pISR_EINT4_7	2450addr.h	670;"	d
+pISR_EINT8_23	2450addr.h	671;"	d
+pISR_FIQ	2450addr.h	664;"	d
+pISR_IIC	2450addr.h	693;"	d
+pISR_IRQ	2450addr.h	663;"	d
+pISR_LCD	2450addr.h	682;"	d
+pISR_NFCON	2450addr.h	690;"	d
+pISR_PABORT	2450addr.h	660;"	d
+pISR_RESERVED	2450addr.h	662;"	d
+pISR_RESET	2450addr.h	657;"	d
+pISR_RTC	2450addr.h	696;"	d
+pISR_SDI	2450addr.h	687;"	d
+pISR_SPI0	2450addr.h	688;"	d
+pISR_SPI1	2450addr.h	695;"	d
+pISR_SWI	2450addr.h	659;"	d
+pISR_TICK	2450addr.h	674;"	d
+pISR_TIMER0	2450addr.h	676;"	d
+pISR_TIMER1	2450addr.h	677;"	d
+pISR_TIMER2	2450addr.h	678;"	d
+pISR_TIMER3	2450addr.h	679;"	d
+pISR_TIMER4	2450addr.h	680;"	d
+pISR_UART0	2450addr.h	694;"	d
+pISR_UART1	2450addr.h	689;"	d
+pISR_UART2	2450addr.h	681;"	d
+pISR_UNDEF	2450addr.h	658;"	d
+pISR_USBD	2450addr.h	691;"	d
+pISR_USBH	2450addr.h	692;"	d
+pISR_WDT_AC97	2450addr.h	675;"	d
+rAC_CODEC_CMD	2450addr.h	481;"	d
+rAC_CODEC_STAT	2450addr.h	482;"	d
+rAC_GLBCTRL	2450addr.h	479;"	d
+rAC_GLBSTAT	2450addr.h	480;"	d
+rAC_MICADDR	2450addr.h	484;"	d
+rAC_MICDATA	2450addr.h	486;"	d
+rAC_PCMADDR	2450addr.h	483;"	d
+rAC_PCMDATA	2450addr.h	485;"	d
+rADCCON	2450addr.h	605;"	d
+rADCDAT0	2450addr.h	608;"	d
+rADCDAT1	2450addr.h	609;"	d
+rADCDLY	2450addr.h	607;"	d
+rADCTSC	2450addr.h	606;"	d
+rADCUPDN	2450addr.h	610;"	d
+rALMDATE	2450addr.h	571;"	d
+rALMDATE	2450addr.h	590;"	d
+rALMHOUR	2450addr.h	570;"	d
+rALMHOUR	2450addr.h	589;"	d
+rALMMIN	2450addr.h	569;"	d
+rALMMIN	2450addr.h	588;"	d
+rALMMON	2450addr.h	572;"	d
+rALMMON	2450addr.h	591;"	d
+rALMSEC	2450addr.h	568;"	d
+rALMSEC	2450addr.h	587;"	d
+rALMYEAR	2450addr.h	573;"	d
+rALMYEAR	2450addr.h	592;"	d
+rBANKCON0	2450addr.h	16;"	d
+rBANKCON1	2450addr.h	17;"	d
+rBANKCON2	2450addr.h	18;"	d
+rBANKCON3	2450addr.h	19;"	d
+rBANKCON4	2450addr.h	20;"	d
+rBANKCON5	2450addr.h	21;"	d
+rBANKCON6	2450addr.h	22;"	d
+rBANKCON7	2450addr.h	23;"	d
+rBANKSIZE	2450addr.h	25;"	d
+rBCDDATE	2450addr.h	578;"	d
+rBCDDATE	2450addr.h	597;"	d
+rBCDDAY	2450addr.h	579;"	d
+rBCDDAY	2450addr.h	598;"	d
+rBCDHOUR	2450addr.h	577;"	d
+rBCDHOUR	2450addr.h	596;"	d
+rBCDMIN	2450addr.h	576;"	d
+rBCDMIN	2450addr.h	595;"	d
+rBCDMON	2450addr.h	580;"	d
+rBCDMON	2450addr.h	599;"	d
+rBCDSEC	2450addr.h	575;"	d
+rBCDSEC	2450addr.h	594;"	d
+rBCDYEAR	2450addr.h	581;"	d
+rBCDYEAR	2450addr.h	600;"	d
+rBWSCON	2450addr.h	15;"	d
+rCAMDIVN	2450addr.h	149;"	d
+rCICOCBSA1	2450addr.h	227;"	d
+rCICOCBSA2	2450addr.h	228;"	d
+rCICOCBSA3	2450addr.h	229;"	d
+rCICOCBSA4	2450addr.h	230;"	d
+rCICOCRSA1	2450addr.h	231;"	d
+rCICOCRSA2	2450addr.h	232;"	d
+rCICOCRSA3	2450addr.h	233;"	d
+rCICOCRSA4	2450addr.h	234;"	d
+rCICOCTRL	2450addr.h	236;"	d
+rCICOSCCTRL	2450addr.h	239;"	d
+rCICOSCPREDST	2450addr.h	238;"	d
+rCICOSCPRERATIO	2450addr.h	237;"	d
+rCICOSTATUS	2450addr.h	241;"	d
+rCICOTAREA	2450addr.h	240;"	d
+rCICOTRGFMT	2450addr.h	235;"	d
+rCICOYSA1	2450addr.h	223;"	d
+rCICOYSA2	2450addr.h	224;"	d
+rCICOYSA3	2450addr.h	225;"	d
+rCICOYSA4	2450addr.h	226;"	d
+rCIGCTRL	2450addr.h	222;"	d
+rCIIMGCPT	2450addr.h	253;"	d
+rCIPRCLRSA1	2450addr.h	242;"	d
+rCIPRCLRSA2	2450addr.h	243;"	d
+rCIPRCLRSA3	2450addr.h	244;"	d
+rCIPRCLRSA4	2450addr.h	245;"	d
+rCIPRCTRL	2450addr.h	247;"	d
+rCIPRSCCTRL	2450addr.h	250;"	d
+rCIPRSCPREDST	2450addr.h	249;"	d
+rCIPRSCPRERATIO	2450addr.h	248;"	d
+rCIPRSTATUS	2450addr.h	252;"	d
+rCIPRTAREA	2450addr.h	251;"	d
+rCIPRTRGFMT	2450addr.h	246;"	d
+rCISRCFMT	2450addr.h	220;"	d
+rCIWDOFST	2450addr.h	221;"	d
+rCLKCON	2450addr.h	146;"	d
+rCLKDIVN	2450addr.h	148;"	d
+rCLKSLOW	2450addr.h	147;"	d
+rCPUTRIGCON2	2450addr.h	193;"	d
+rDCDST0	2450addr.h	60;"	d
+rDCDST1	2450addr.h	71;"	d
+rDCDST2	2450addr.h	82;"	d
+rDCDST3	2450addr.h	93;"	d
+rDCDST4	2450addr.h	104;"	d
+rDCDST5	2450addr.h	115;"	d
+rDCDST6	2450addr.h	126;"	d
+rDCDST7	2450addr.h	137;"	d
+rDCLKCON	2450addr.h	541;"	d
+rDCON0	2450addr.h	57;"	d
+rDCON1	2450addr.h	68;"	d
+rDCON2	2450addr.h	79;"	d
+rDCON3	2450addr.h	90;"	d
+rDCON4	2450addr.h	101;"	d
+rDCON5	2450addr.h	112;"	d
+rDCON6	2450addr.h	123;"	d
+rDCON7	2450addr.h	134;"	d
+rDCSRC0	2450addr.h	59;"	d
+rDCSRC1	2450addr.h	70;"	d
+rDCSRC2	2450addr.h	81;"	d
+rDCSRC3	2450addr.h	92;"	d
+rDCSRC4	2450addr.h	103;"	d
+rDCSRC5	2450addr.h	114;"	d
+rDCSRC6	2450addr.h	125;"	d
+rDCSRC7	2450addr.h	136;"	d
+rDIDST0	2450addr.h	55;"	d
+rDIDST1	2450addr.h	66;"	d
+rDIDST2	2450addr.h	77;"	d
+rDIDST3	2450addr.h	88;"	d
+rDIDST4	2450addr.h	99;"	d
+rDIDST5	2450addr.h	110;"	d
+rDIDST6	2450addr.h	121;"	d
+rDIDST7	2450addr.h	132;"	d
+rDIDSTC0	2450addr.h	56;"	d
+rDIDSTC1	2450addr.h	67;"	d
+rDIDSTC2	2450addr.h	78;"	d
+rDIDSTC3	2450addr.h	89;"	d
+rDIDSTC4	2450addr.h	100;"	d
+rDIDSTC5	2450addr.h	111;"	d
+rDIDSTC6	2450addr.h	122;"	d
+rDIDSTC7	2450addr.h	133;"	d
+rDISRC0	2450addr.h	53;"	d
+rDISRC1	2450addr.h	64;"	d
+rDISRC2	2450addr.h	75;"	d
+rDISRC3	2450addr.h	86;"	d
+rDISRC4	2450addr.h	97;"	d
+rDISRC5	2450addr.h	108;"	d
+rDISRC6	2450addr.h	119;"	d
+rDISRC7	2450addr.h	130;"	d
+rDISRCC0	2450addr.h	54;"	d
+rDISRCC1	2450addr.h	65;"	d
+rDISRCC2	2450addr.h	76;"	d
+rDISRCC3	2450addr.h	87;"	d
+rDISRCC4	2450addr.h	98;"	d
+rDISRCC5	2450addr.h	109;"	d
+rDISRCC6	2450addr.h	120;"	d
+rDISRCC7	2450addr.h	131;"	d
+rDITHMODE	2450addr.h	189;"	d
+rDMAREQSEL0	2450addr.h	62;"	d
+rDMAREQSEL1	2450addr.h	73;"	d
+rDMAREQSEL2	2450addr.h	84;"	d
+rDMAREQSEL3	2450addr.h	95;"	d
+rDMAREQSEL4	2450addr.h	106;"	d
+rDMAREQSEL5	2450addr.h	117;"	d
+rDMAREQSEL6	2450addr.h	128;"	d
+rDMAREQSEL7	2450addr.h	139;"	d
+rDMASKTRIG0	2450addr.h	61;"	d
+rDMASKTRIG1	2450addr.h	72;"	d
+rDMASKTRIG2	2450addr.h	83;"	d
+rDMASKTRIG3	2450addr.h	94;"	d
+rDMASKTRIG4	2450addr.h	105;"	d
+rDMASKTRIG5	2450addr.h	116;"	d
+rDMASKTRIG6	2450addr.h	127;"	d
+rDMASKTRIG7	2450addr.h	138;"	d
+rDSC0	2450addr.h	559;"	d
+rDSC1	2450addr.h	560;"	d
+rDSTAT0	2450addr.h	58;"	d
+rDSTAT1	2450addr.h	69;"	d
+rDSTAT2	2450addr.h	80;"	d
+rDSTAT3	2450addr.h	91;"	d
+rDSTAT4	2450addr.h	102;"	d
+rDSTAT5	2450addr.h	113;"	d
+rDSTAT6	2450addr.h	124;"	d
+rDSTAT7	2450addr.h	135;"	d
+rEINTFLT0	2450addr.h	545;"	d
+rEINTFLT1	2450addr.h	546;"	d
+rEINTFLT2	2450addr.h	547;"	d
+rEINTFLT3	2450addr.h	548;"	d
+rEINTMASK	2450addr.h	549;"	d
+rEINTPEND	2450addr.h	550;"	d
+rEP0_CSR	2450addr.h	365;"	d
+rEP0_CSR	2450addr.h	413;"	d
+rEP0_FIFO	2450addr.h	372;"	d
+rEP0_FIFO	2450addr.h	420;"	d
+rEP1_DMA_CON	2450addr.h	377;"	d
+rEP1_DMA_CON	2450addr.h	425;"	d
+rEP1_DMA_FIFO	2450addr.h	379;"	d
+rEP1_DMA_FIFO	2450addr.h	427;"	d
+rEP1_DMA_TTC_H	2450addr.h	382;"	d
+rEP1_DMA_TTC_H	2450addr.h	430;"	d
+rEP1_DMA_TTC_L	2450addr.h	380;"	d
+rEP1_DMA_TTC_L	2450addr.h	428;"	d
+rEP1_DMA_TTC_M	2450addr.h	381;"	d
+rEP1_DMA_TTC_M	2450addr.h	429;"	d
+rEP1_DMA_UNIT	2450addr.h	378;"	d
+rEP1_DMA_UNIT	2450addr.h	426;"	d
+rEP1_FIFO	2450addr.h	373;"	d
+rEP1_FIFO	2450addr.h	421;"	d
+rEP2_DMA_CON	2450addr.h	383;"	d
+rEP2_DMA_CON	2450addr.h	431;"	d
+rEP2_DMA_FIFO	2450addr.h	385;"	d
+rEP2_DMA_FIFO	2450addr.h	433;"	d
+rEP2_DMA_TTC_H	2450addr.h	388;"	d
+rEP2_DMA_TTC_H	2450addr.h	436;"	d
+rEP2_DMA_TTC_L	2450addr.h	386;"	d
+rEP2_DMA_TTC_L	2450addr.h	434;"	d
+rEP2_DMA_TTC_M	2450addr.h	387;"	d
+rEP2_DMA_TTC_M	2450addr.h	435;"	d
+rEP2_DMA_UNIT	2450addr.h	384;"	d
+rEP2_DMA_UNIT	2450addr.h	432;"	d
+rEP2_FIFO	2450addr.h	374;"	d
+rEP2_FIFO	2450addr.h	422;"	d
+rEP3_DMA_CON	2450addr.h	389;"	d
+rEP3_DMA_CON	2450addr.h	437;"	d
+rEP3_DMA_FIFO	2450addr.h	391;"	d
+rEP3_DMA_FIFO	2450addr.h	439;"	d
+rEP3_DMA_TTC_H	2450addr.h	394;"	d
+rEP3_DMA_TTC_H	2450addr.h	442;"	d
+rEP3_DMA_TTC_L	2450addr.h	392;"	d
+rEP3_DMA_TTC_L	2450addr.h	440;"	d
+rEP3_DMA_TTC_M	2450addr.h	393;"	d
+rEP3_DMA_TTC_M	2450addr.h	441;"	d
+rEP3_DMA_UNIT	2450addr.h	390;"	d
+rEP3_DMA_UNIT	2450addr.h	438;"	d
+rEP3_FIFO	2450addr.h	375;"	d
+rEP3_FIFO	2450addr.h	423;"	d
+rEP4_DMA_CON	2450addr.h	395;"	d
+rEP4_DMA_CON	2450addr.h	443;"	d
+rEP4_DMA_FIFO	2450addr.h	397;"	d
+rEP4_DMA_FIFO	2450addr.h	445;"	d
+rEP4_DMA_TTC_H	2450addr.h	400;"	d
+rEP4_DMA_TTC_H	2450addr.h	448;"	d
+rEP4_DMA_TTC_L	2450addr.h	398;"	d
+rEP4_DMA_TTC_L	2450addr.h	446;"	d
+rEP4_DMA_TTC_M	2450addr.h	399;"	d
+rEP4_DMA_TTC_M	2450addr.h	447;"	d
+rEP4_DMA_UNIT	2450addr.h	396;"	d
+rEP4_DMA_UNIT	2450addr.h	444;"	d
+rEP4_FIFO	2450addr.h	376;"	d
+rEP4_FIFO	2450addr.h	424;"	d
+rEP_INT_EN_REG	2450addr.h	359;"	d
+rEP_INT_EN_REG	2450addr.h	407;"	d
+rEP_INT_REG	2450addr.h	357;"	d
+rEP_INT_REG	2450addr.h	405;"	d
+rEXTINT0	2450addr.h	542;"	d
+rEXTINT1	2450addr.h	543;"	d
+rEXTINT2	2450addr.h	544;"	d
+rFLTOUT	2450addr.h	558;"	d
+rFRAME_NUM1_REG	2450addr.h	361;"	d
+rFRAME_NUM1_REG	2450addr.h	409;"	d
+rFRAME_NUM2_REG	2450addr.h	362;"	d
+rFRAME_NUM2_REG	2450addr.h	410;"	d
+rFUNC_ADDR_REG	2450addr.h	355;"	d
+rFUNC_ADDR_REG	2450addr.h	403;"	d
+rGPACON	2450addr.h	492;"	d
+rGPADAT	2450addr.h	493;"	d
+rGPBCON	2450addr.h	495;"	d
+rGPBDAT	2450addr.h	496;"	d
+rGPBUDP	2450addr.h	497;"	d
+rGPCCON	2450addr.h	499;"	d
+rGPCDAT	2450addr.h	500;"	d
+rGPCUDP	2450addr.h	501;"	d
+rGPDCON	2450addr.h	503;"	d
+rGPDDAT	2450addr.h	504;"	d
+rGPDUDP	2450addr.h	505;"	d
+rGPECON	2450addr.h	507;"	d
+rGPEDAT	2450addr.h	508;"	d
+rGPEUDP	2450addr.h	509;"	d
+rGPFCON	2450addr.h	511;"	d
+rGPFDAT	2450addr.h	512;"	d
+rGPFUDP	2450addr.h	513;"	d
+rGPGCON	2450addr.h	515;"	d
+rGPGDAT	2450addr.h	516;"	d
+rGPGUDP	2450addr.h	517;"	d
+rGPHCON	2450addr.h	519;"	d
+rGPHDAT	2450addr.h	520;"	d
+rGPHUDP	2450addr.h	521;"	d
+rGPJCON	2450addr.h	523;"	d
+rGPJDAT	2450addr.h	524;"	d
+rGPJUDP	2450addr.h	525;"	d
+rGPKCON	2450addr.h	527;"	d
+rGPKDAT	2450addr.h	528;"	d
+rGPKUDP	2450addr.h	529;"	d
+rGPLCON	2450addr.h	531;"	d
+rGPLDAT	2450addr.h	532;"	d
+rGPLSEL	2450addr.h	534;"	d
+rGPLUDP	2450addr.h	533;"	d
+rGPMCON	2450addr.h	536;"	d
+rGPMDAT	2450addr.h	537;"	d
+rGPMUDP	2450addr.h	538;"	d
+rGSTATUS0	2450addr.h	551;"	d
+rGSTATUS1	2450addr.h	552;"	d
+rGSTATUS2	2450addr.h	553;"	d
+rGSTATUS3	2450addr.h	554;"	d
+rGSTATUS4	2450addr.h	555;"	d
+rIICADD	2450addr.h	461;"	d
+rIICCON	2450addr.h	459;"	d
+rIICDS	2450addr.h	462;"	d
+rIICLC	2450addr.h	463;"	d
+rIICSTAT	2450addr.h	460;"	d
+rIISCON	2450addr.h	467;"	d
+rIISFCON	2450addr.h	470;"	d
+rIISMOD	2450addr.h	468;"	d
+rIISPSR	2450addr.h	469;"	d
+rINDEX_REG	2450addr.h	363;"	d
+rINDEX_REG	2450addr.h	411;"	d
+rINTMOD1	2450addr.h	35;"	d
+rINTMOD2	2450addr.h	44;"	d
+rINTMSK1	2450addr.h	36;"	d
+rINTMSK2	2450addr.h	45;"	d
+rINTOFFSET1	2450addr.h	38;"	d
+rINTOFFSET2	2450addr.h	47;"	d
+rINTPND1	2450addr.h	37;"	d
+rINTPND2	2450addr.h	46;"	d
+rINTSUBMSK	2450addr.h	40;"	d
+rIN_CSR1_REG	2450addr.h	366;"	d
+rIN_CSR1_REG	2450addr.h	414;"	d
+rIN_CSR2_REG	2450addr.h	367;"	d
+rIN_CSR2_REG	2450addr.h	415;"	d
+rLOCKTIME	2450addr.h	143;"	d
+rMAXP_REG	2450addr.h	364;"	d
+rMAXP_REG	2450addr.h	412;"	d
+rMISCCR	2450addr.h	540;"	d
+rMPLLCON	2450addr.h	144;"	d
+rMRSRB6	2450addr.h	26;"	d
+rMRSRB7	2450addr.h	27;"	d
+rMSLCON	2450addr.h	561;"	d
+rNFADDR	2450addr.h	202;"	d
+rNFCMD	2450addr.h	201;"	d
+rNFCONF	2450addr.h	199;"	d
+rNFCONT	2450addr.h	200;"	d
+rNFDATA	2450addr.h	203;"	d
+rNFDATA8	2450addr.h	204;"	d
+rNFEBLK	2450addr.h	216;"	d
+rNFESTAT0	2450addr.h	210;"	d
+rNFESTAT1	2450addr.h	211;"	d
+rNFMECC0	2450addr.h	212;"	d
+rNFMECC1	2450addr.h	213;"	d
+rNFMECCD0	2450addr.h	206;"	d
+rNFMECCD1	2450addr.h	207;"	d
+rNFSBLK	2450addr.h	215;"	d
+rNFSECC	2450addr.h	214;"	d
+rNFSECCD	2450addr.h	208;"	d
+rNFSTAT	2450addr.h	209;"	d
+rOUT_CSR1_REG	2450addr.h	368;"	d
+rOUT_CSR1_REG	2450addr.h	416;"	d
+rOUT_CSR2_REG	2450addr.h	369;"	d
+rOUT_CSR2_REG	2450addr.h	417;"	d
+rOUT_FIFO_CNT1_REG	2450addr.h	370;"	d
+rOUT_FIFO_CNT1_REG	2450addr.h	418;"	d
+rOUT_FIFO_CNT2_REG	2450addr.h	371;"	d
+rOUT_FIFO_CNT2_REG	2450addr.h	419;"	d
+rPRIORITY_MODE	2450addr.h	41;"	d
+rPRIORITY_MODE2	2450addr.h	48;"	d
+rPRIORITY_UPDATE1	2450addr.h	42;"	d
+rPRIORITY_UPDATE2	2450addr.h	49;"	d
+rPWR_REG	2450addr.h	356;"	d
+rPWR_REG	2450addr.h	404;"	d
+rREFRESH	2450addr.h	24;"	d
+rRTCALM	2450addr.h	567;"	d
+rRTCALM	2450addr.h	586;"	d
+rRTCCON	2450addr.h	565;"	d
+rRTCCON	2450addr.h	584;"	d
+rRTCRST	2450addr.h	574;"	d
+rRTCRST	2450addr.h	593;"	d
+rSDIBSIZE	2450addr.h	640;"	d
+rSDICARG	2450addr.h	632;"	d
+rSDICCON	2450addr.h	633;"	d
+rSDICON	2450addr.h	630;"	d
+rSDICSTA	2450addr.h	634;"	d
+rSDIDAT	2450addr.h	648;"	d
+rSDIDAT	2450addr.h	651;"	d
+rSDIDCNT	2450addr.h	642;"	d
+rSDIDCON	2450addr.h	641;"	d
+rSDIDSTA	2450addr.h	643;"	d
+rSDIDTIMER	2450addr.h	639;"	d
+rSDIFSTA	2450addr.h	644;"	d
+rSDIIMSK	2450addr.h	645;"	d
+rSDIPRE	2450addr.h	631;"	d
+rSDIRSP0	2450addr.h	635;"	d
+rSDIRSP1	2450addr.h	636;"	d
+rSDIRSP2	2450addr.h	637;"	d
+rSDIRSP3	2450addr.h	638;"	d
+rSIFCCON0	2450addr.h	190;"	d
+rSIFCCON1	2450addr.h	191;"	d
+rSIFCCON2	2450addr.h	192;"	d
+rSPCON0	2450addr.h	614;"	d
+rSPCON1	2450addr.h	621;"	d
+rSPPIN0	2450addr.h	616;"	d
+rSPPIN1	2450addr.h	623;"	d
+rSPPRE0	2450addr.h	617;"	d
+rSPPRE1	2450addr.h	624;"	d
+rSPRDAT0	2450addr.h	619;"	d
+rSPRDAT1	2450addr.h	626;"	d
+rSPSTA0	2450addr.h	615;"	d
+rSPSTA1	2450addr.h	622;"	d
+rSPTDAT0	2450addr.h	618;"	d
+rSPTDAT1	2450addr.h	625;"	d
+rSRCPND1	2450addr.h	34;"	d
+rSRCPND2	2450addr.h	43;"	d
+rSUBSRCPND	2450addr.h	39;"	d
+rSYSIFCON0	2450addr.h	187;"	d
+rSYSIFCON1	2450addr.h	188;"	d
+rTCFG0	2450addr.h	333;"	d
+rTCFG1	2450addr.h	334;"	d
+rTCMPB0	2450addr.h	337;"	d
+rTCMPB1	2450addr.h	340;"	d
+rTCMPB2	2450addr.h	343;"	d
+rTCMPB3	2450addr.h	346;"	d
+rTCNTB0	2450addr.h	336;"	d
+rTCNTB1	2450addr.h	339;"	d
+rTCNTB2	2450addr.h	342;"	d
+rTCNTB3	2450addr.h	345;"	d
+rTCNTB4	2450addr.h	348;"	d
+rTCNTO0	2450addr.h	338;"	d
+rTCNTO1	2450addr.h	341;"	d
+rTCNTO2	2450addr.h	344;"	d
+rTCNTO3	2450addr.h	347;"	d
+rTCNTO4	2450addr.h	349;"	d
+rTCON	2450addr.h	335;"	d
+rTICNT	2450addr.h	566;"	d
+rTICNT	2450addr.h	585;"	d
+rUBRDIV0	2450addr.h	265;"	d
+rUBRDIV1	2450addr.h	275;"	d
+rUBRDIV2	2450addr.h	284;"	d
+rUCON0	2450addr.h	258;"	d
+rUCON1	2450addr.h	268;"	d
+rUCON2	2450addr.h	277;"	d
+rUERSTAT0	2450addr.h	262;"	d
+rUERSTAT1	2450addr.h	272;"	d
+rUERSTAT2	2450addr.h	281;"	d
+rUFCON0	2450addr.h	259;"	d
+rUFCON1	2450addr.h	269;"	d
+rUFCON2	2450addr.h	278;"	d
+rUFSTAT0	2450addr.h	263;"	d
+rUFSTAT1	2450addr.h	273;"	d
+rUFSTAT2	2450addr.h	282;"	d
+rULCON0	2450addr.h	257;"	d
+rULCON1	2450addr.h	267;"	d
+rULCON2	2450addr.h	276;"	d
+rUMCON0	2450addr.h	260;"	d
+rUMCON1	2450addr.h	270;"	d
+rUMCON2	2450addr.h	279;"	d
+rUMSTAT0	2450addr.h	264;"	d
+rUMSTAT1	2450addr.h	274;"	d
+rUMSTAT2	2450addr.h	283;"	d
+rUPLLCON	2450addr.h	145;"	d
+rURXH0	2450addr.h	288;"	d
+rURXH0	2450addr.h	310;"	d
+rURXH1	2450addr.h	290;"	d
+rURXH1	2450addr.h	312;"	d
+rURXH2	2450addr.h	292;"	d
+rURXH2	2450addr.h	314;"	d
+rUSB_INT_EN_REG	2450addr.h	360;"	d
+rUSB_INT_EN_REG	2450addr.h	408;"	d
+rUSB_INT_REG	2450addr.h	358;"	d
+rUSB_INT_REG	2450addr.h	406;"	d
+rUTRSTAT0	2450addr.h	261;"	d
+rUTRSTAT1	2450addr.h	271;"	d
+rUTRSTAT2	2450addr.h	280;"	d
+rUTXH0	2450addr.h	287;"	d
+rUTXH0	2450addr.h	309;"	d
+rUTXH1	2450addr.h	289;"	d
+rUTXH1	2450addr.h	311;"	d
+rUTXH2	2450addr.h	291;"	d
+rUTXH2	2450addr.h	313;"	d
+rVIDCON0	2450addr.h	154;"	d
+rVIDCON1	2450addr.h	155;"	d
+rVIDINTCON	2450addr.h	175;"	d
+rVIDOSD0A	2450addr.h	161;"	d
+rVIDOSD0B	2450addr.h	162;"	d
+rVIDOSD1A	2450addr.h	163;"	d
+rVIDOSD1B	2450addr.h	164;"	d
+rVIDOSD1C	2450addr.h	165;"	d
+rVIDTCON0	2450addr.h	156;"	d
+rVIDTCON1	2450addr.h	157;"	d
+rVIDTCON2	2450addr.h	158;"	d
+rVIDW00ADD0B0	2450addr.h	166;"	d
+rVIDW00ADD0B1	2450addr.h	167;"	d
+rVIDW00ADD1B0	2450addr.h	169;"	d
+rVIDW00ADD1B1	2450addr.h	170;"	d
+rVIDW00ADD2B0	2450addr.h	172;"	d
+rVIDW00ADD2B1	2450addr.h	173;"	d
+rVIDW01ADD0	2450addr.h	168;"	d
+rVIDW01ADD1	2450addr.h	171;"	d
+rVIDW01ADD2	2450addr.h	174;"	d
+rW1KEYCON0	2450addr.h	176;"	d
+rW1KEYCON1	2450addr.h	177;"	d
+rW2KEYCON0	2450addr.h	178;"	d
+rW2KEYCON1	2450addr.h	179;"	d
+rW3KEYCON0	2450addr.h	180;"	d
+rW3KEYCON1	2450addr.h	181;"	d
+rW4KEYCON0	2450addr.h	182;"	d
+rW4KEYCON1	2450addr.h	183;"	d
+rWIN0	2450addr.h	194;"	d
+rWIN0MAP	2450addr.h	184;"	d
+rWIN1	2450addr.h	195;"	d
+rWIN1MAP	2450addr.h	185;"	d
+rWINCON0	2450addr.h	159;"	d
+rWINCON1	2450addr.h	160;"	d
+rWPALCON	2450addr.h	186;"	d
+rWTCNT	2450addr.h	455;"	d
+rWTCON	2450addr.h	453;"	d
+rWTDAT	2450addr.h	454;"	d
