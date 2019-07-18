@@ -6,6 +6,7 @@
 ![](./img/intro.jpg)
 
 * [한컴MDS Academy, 상세 커리큘럼](http://www.mdsacademy.co.kr/customer/board_view.php?board_idx=1585&schField=&schWord=nvidia&search_div=notice&size=10&page=1)
+* 우리는 2기 (1년에 2기수 씩 뽑는듯?)
 
 
 <img src="./intro.jpg" width="60%" height="60%">
@@ -33,36 +34,23 @@
 
 >버티는게 이기는거다. 매일매일 쏟아지는 지식들 속에서 흘려 버릴건 흘리고 새로운 걸로 다시 퐉퐉 채우면서 정리를 하자! 나중에 다시 보고 되새김하며 주어담길 바라며 ***과정이 끝날 즈음 남우에게 시작 때 남우가***
 
-| Week| course             |        Abstract        |실습장비|강사님|
+| Week| course             |        Abstract        |Linux and 실습장비|강사님|
 |:---:| :----------------- | :------------- |:---:|:---:|
-| 0 | [OT](./courses/OT.md)                 |   첫 오리엔테이션
-| 1 | [C Programming](./courses/w01.md)        | C언어 집중교육           |               |김성영|
-| 2 | [Embedded C](./courses/w02.md)           | Embedded C언어 집중교육  |ARM9 S3C2450 MDS2450 |김성영|
-| 3 | [C++ Programming ](./courses/w03.md)     | C++언어 집중교육    ||서광원|
-| 4 | [Python Programming ](./courses/w04.md)  | Python 집중교육   ||서영진|
-| 5 | [차량용 프로세서 디바이스제어]           | 임베디드 리눅스, ARM 이해 |ARM9 S3C2450 MDS2450|홍영기|
-| 6 | [차량용 프로세서 이해 및 활용]           | 리눅스 포팅, 어셈블리어 실습|ARM9 S3C2450 MDS2450|홍영기|
-| 7 | [차량용 OS 시스템 프로그래밍]           | 리눅스 시스템 프로그래밍|ARM9 S3C2450 MDS2450 |서광원|
-| 8 | [자율주행기능구현을위한차량용SW개발]     |인피니온보드 시스템 이해 그리고 실습|Infineon AURIX TC27CA, Lauterbach Trace32|황호현
-| 9 | [차량용 OS 디바이스 프로그래밍]         |모듈, 디바이스 드라이버|ARM9 S3C2450 MDS2450|김성영
-|...|                                         | 앞으로 11월까지....  |
-
-<!-- | Week | course             |             Link              |       내용        |강사|
-| :----- | :----------------- | :---------------------------: | :-------------: |:---:|
-| !      | OT                 | [L I N K]|    첫 간단한 오티     | 
-| 1 | [C Programming]((./courses/w01.md)       | [L I N K](./courses/w01.md)  |    C언어 집중교육     |
-| 2 | Embedded C         | [L I N K](./courses/w02.md)  | ARM9 S3C2450 실습 |
-| 3 | C++ Programming    | [L I N K](./courses/w03.md)  |   C++언어 집중교육    |
-| 4 | Python Programming | [L I N K](./courses/w04.md)  |   Python 집중교육   |
-| 5 | 차량용 프로세서 디바이스제어    |[L I N K]| 임베디드 리눅스 ARM 
-| 6 | 차량용 프로세서 이해 및 활용   |[L I N K]| 리눅스 포팅, 어셈블리어
-| 7 | 리눅스 OS 프로그래밍   |[L I N K]| 리눅스 프로그래밍, 쉘 스크립트
-| 8 | 자율주행기능구현을위한차량용SW개발|[L I N K]|Infineon AURIX, Lauterbach, Trace32
-| 9 | |[L I N K]|Infineon AURIX, Lauterbach, Trace32
-
-| ...    |                    |                               | 앞으로 11월까지....  | -->
-
-<!-- (./courses/OT/OT.md) -->
+| 0| [OT](./courses/OT.md)                 |   첫 오리엔테이션|
+| 1| [C Programming](./courses/w01.md)        | C, 자료구조, 알고리즘||김성영|
+| 2| [Embedded C](./courses/w02.md)           | Embedded 최적화|ARM9 S3C2450, MDS2450 |김성영|
+| 3| [C++ Programming ](./courses/w03.md)     | C++언어 집중교육    ||서광원|
+| 4| [Python Programming ](./courses/w04.md)  | 네트워크, GUI||서영진|
+| 5| [차량용 프로세서 디바이스제어](./courses/w05.md)| 임베디드 리눅스, ARM 이해 |ARM9 S3C2450, MDS2450|홍영기|
+| 6| [차량용 프로세서 이해 및 활용](./courses/w06.md)| 리눅스 포팅, 어셈블리어 실습|ARM9 S3C2450, MDS2450|홍영기|
+| 7| [차량용 OS 시스템 프로그래밍]           | 리눅스 시스템 프로그래밍|ARM9 S3C2450, MDS2450 |서광원|
+| 8| [자율주행기능구현을위한차량용SW개발]     |인피니온보드 시스템 이해 그리고 실습|Infineon AURIX TC27CA, Lauterbach Trace32|황호현
+| 9| [차량용 OS 디바이스 프로그래밍]         |모듈, 디바이스 드라이버|ARM9 S3C2450, MDS2450|김성영
+|10| [자율주행 개발을 위한 OpenCV](./courses/w10.md)|차선 인식, 추출, 검출, 재구성 |C++, Python|왕진영
+|11| [ROS활용 및 QT프로그래밍]           |SLAM, QT멀티쓰레드||
+|12| [NVIDIA TX보드를 활용한 딥러닝의 이해]|Deep Learning, Tensorflow|NVIDIA TX2|
+|13| [Digits서버와 Nvidia TX기반의 영상처리 딥러닝]|Digits Object Detection |NVIDIA TX2|
+|..|                                         | 앞으로 11월까지...총 24주...  |
 
 * 사용 칩, 보드 상세정보
 * 강사님 상세정보
@@ -94,9 +82,9 @@
 |      |   [지선](https://github.com/LJSsun)    | [소현](https://github.com/So-Is-Cow)  |  [민지](https://github.com/youminji)   |       |                 현민                 |                                 |
 | 강석 |                                      |[기찬](https://github.com/allowme2)|  |       |                 지윤                 |               규식                |
 
-* 최초시작 25명, 현재는 21명
+* 최초시작 25명, 현재는 22명
   * 취업 2명(3주차, 8주차)
-  * 더 넓은 세상으로 2명(2주차, 8주차)
+  * 더 넓은 세상으로 1명(2주차)
 <!-- * 취업성공
   * [용준](https://github.com/chrno0621)
    -->
