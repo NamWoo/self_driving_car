@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "2450addr.h": "c",
+        "stdarg.h": "c",
+        "libc.h": "c",
+        "keylogger.h": "c"
+    }
+}
