@@ -1,0 +1,217 @@
+import cv2
+import math
+import numpy as np
+
+
+def imageRead(openpath, flag=cv2.IMREAD_UNCHANGED):
+    image = cv2.imread(openpath, flag)
+    if image is not None:
+        print("Image Opened")
+        return image
+    else:
+        print("Image Not Opened")
+        print("Program Abort")
+        exit()
+
+
+def imageShow(imagename, image, flag=cv2.WINDOW_GUI_EXPANDED):
+    cv2.namedWindow(imagename, flag)
+    cv2.imshow(imagename, image)
+    cv2.waitKey()
+    
+
+def imageCopy(src):
+    return np.copy(src)
+
+
+def polyROI(image, points):
+    if len(image.shape) == 2:
+        channels = 1
+    else:
+        channels = image.shape[2]
+    mask = np.zeros_like(image)
+    ignore_mask_color = (255,) * channels
+    cv2.fillPoly(mask, points, ignore_mask_color)
+    return cv2.bitwise_and(image, mask)
+
+
+def convertColor(image, flag=None):
+    if flag is None:
+        return image
+    else:
+        return cv2.cvtColor(image, flag)
+
+
+def cannyEdge(image, threshold1=100, threshold2=200):
+    return cv2.Canny(image, threshold1, threshold2)
+
+
+def addWeightedImage(image1, w1, imagw2, w2=None):
+    if w2 is None:
+        return cv2.addWeighted(image1, float(w1) * 0.01, imagw2, float(100 - w1) * 0.01, 0)
+    else:
+        return cv2.addWeighted(image1, w1 * 0.01, imagw2, w2 * 0.01, 0)
+
+
+def houghLinesP(image, rho=1.0, theta=np.pi/180, threshold=100, minLineLength=10, maxLineGap=100):
+    return cv2.HoughLinesP(image, rho, theta, threshold, minLineLength=minLineLength, maxLineGap=maxLineGap)
+
+
+def drawHoughLinesP(image, lines):
+    result = imageCopy(image)
+    if len(image.shape) == 2:
+        result = convertColor(image, cv2.COLOR_GRAY2BGR)
+    for i in range(len(lines)):
+        for x1, y1, x2, y2 in lines[i]:
+            cv2.line(result, (x1, y1), (x2, y2), (0, 0, 255), 3)
+    return result
+
+
+def splitLines(lines):
+    left_x = []
+    left_y = []
+    right_x = []
+    right_y = []
+    for line in lines:
+        x1 = line[0,0]
+        y1 = line[0,1]
+        x2 = line[0,2]
+        y2 = line[0,3]
+        slope = (float)(y2-y1)/(float)(x2-x1)
+        if abs(slope) < 0.5:
+            continue
+        if slope <= 0:
+            left_x.append([x1, x2])
+            left_y.append([y1, y2])
+        else:
+            right_x.append([x1, x2])
+            right_y.append([y1, y2])
+    return left_x, left_y, right_x, right_y
+
+
+def medianPoint(x):
+    xx = sorted(x)
+    return xx[(int)(len(xx)/2)]
+    
+
+def interpolate(list_x, list_y, y):
+    x1 = list_x[0]
+    x2 = list_x[1]
+    y1 = list_y[0]
+    y2 = list_y[1]
+    return int(float(y - y1) * float(x2-x1) / float(y2-y1) + x1)
+
+    
+def lineFitting(image, left_x, left_y, right_x, right_y):
+    result = imageCopy(image)
+    height = image.shape[0]
+    lx = medianPoint(left_x)
+    ly = medianPoint(left_y)
+    rx = medianPoint(right_x)
+    ry = medianPoint(right_y)
+    min_y = int(height*0.6)
+    max_y = height
+    min_x_left = interpolate(lx, ly, min_y)
+    max_x_left = interpolate(lx, ly, max_y)
+    min_x_right = interpolate(rx, ry, min_y)
+    max_x_right = interpolate(rx, ry, max_y)
+    cv2.line(result, (min_x_left, min_y), (max_x_left, max_y), (0, 0, 255), 3)
+    cv2.line(result, (min_x_right, min_y), (max_x_right, max_y), (0, 0, 255), 3)
+    return result
+    
+
+def imagePerspectiveTransformation(image, src_pts, dst_pts, size=None, flags=cv2.INTER_LANCZOS4):
+    if size is None:
+        rows, cols = image.shape[:2]
+        size = (cols, rows)
+    M = cv2.getPerspectiveTransform(src_pts, dst_pts)
+    return cv2.warpPerspective(image, M, dsize=size, flags=flags)
+    
+def imageProcessing(image):
+    result = imageCopy(image)
+        
+    roadGray = convertColor(result, cv2.COLOR_BGR2GRAY)
+    roadEdge = cannyEdge(roadGray, 100, 200)
+    height, width = result.shape[:2]
+
+    src_pt1 = [int(width*0.45), int(height*0.65)]
+    src_pt2 = [int(width*0.55), int(height*0.65)]
+    src_pt3 = [width, height]
+    src_pt4 = [0, height]
+    dst_pt1 = [int(width*0.1), 0]
+    dst_pt2 = [int(width*0.9), 0]
+    dst_pt3 = [int(width*0.9), height]
+    dst_pt4 = [int(width*0.1), height]
+
+    src_pts = np.float32([src_pt1, src_pt2, src_pt3, src_pt4])
+    dst_pts = np.float32([dst_pt1, dst_pt2, dst_pt3, dst_pt4])
+
+    roadAffine_01 = imagePerspectiveTransformation(roadEdge, src_pts, dst_pts)
+
+    roadAffine_origin = imagePerspectiveTransformation(image, src_pts, dst_pts)
+    
+    emtpy = np.zeros((height, width, 3), np.uint8)
+    houghLines_02 = houghLinesP(roadAffine_01, 1, np.pi/180, 40)
+    #emtpy = np.zeros((height, width), np.uint8)
+        
+    lx, ly, rx, ry = splitLines(houghLines_02)
+    draw_houghLines_01 = lineFitting(emtpy, lx, ly, rx, ry)
+
+    #draw_houghLines_02 = drawHoughLinesP(emtpy, houghLines_02)
+    roadAffine_03 = imagePerspectiveTransformation(draw_houghLines_01, src_pts, dst_pts, flags=cv2.WARP_INVERSE_MAP)
+    #print(roadAffine_03.shape)
+    roadResult = cv2.add(roadAffine_03, result)
+    #roadResult = addWeightedImage(roadAffine_03, 100, result, 100)
+    return roadResult, roadEdge, roadAffine_03
+    
+
+path = "../../Data/Lane_Detection_Images/"
+roadImage_01 = "solidWhiteCurve.jpg"
+roadImage_02 = "solidWhiteRight.jpg"
+roadImage_03 = "solidYellowCurve.jpg"
+roadImage_04 = "solidYellowCurve2.jpg"
+roadImage_05 = "solidYellowLeft.jpg"
+roadImage_06 = "whiteCarLaneSwitch.jpg"
+
+roadColor_01 = imageRead(path + roadImage_01, cv2.IMREAD_COLOR)
+roadResult_01, edge, roi = imageProcessing(roadColor_01)
+imageShow("roadColor_01", roadColor_01)
+imageShow("roadResult_01", roadResult_01)
+imageShow("edge1", edge)
+imageShow("roi1", roi)
+
+roadColor_02 = imageRead(path + roadImage_02, cv2.IMREAD_COLOR)
+roadResult_02, edge, roi = imageProcessing(roadColor_02)
+imageShow("roadColor_02", roadColor_02)
+imageShow("roadResult_02", roadResult_02)
+imageShow("edge2", edge)
+imageShow("roi2", roi)
+
+roadColor_03 = imageRead(path + roadImage_03, cv2.IMREAD_COLOR)
+roadResult_03, edge, roi = imageProcessing(roadColor_03)
+imageShow("roadColor_03", roadColor_03)
+imageShow("roadResult_03", roadResult_03)
+imageShow("edge3", edge)
+imageShow("roi3", roi)
+roadColor_04 = imageRead(path + roadImage_04, cv2.IMREAD_COLOR)
+roadResult_04, edge, roi = imageProcessing(roadColor_04)
+imageShow("roadColor_04", roadColor_04)
+imageShow("roadResult_04", roadResult_04)
+imageShow("edge4", edge)
+imageShow("roi4", roi)
+
+roadColor_05 = imageRead(path + roadImage_05, cv2.IMREAD_COLOR)
+roadResult_05, edge, roi  = imageProcessing(roadColor_05)
+imageShow("roadColor_05", roadColor_05)
+imageShow("roadResult_05", roadResult_05)
+imageShow("edge5", edge)
+imageShow("roi5", roi)
+
+roadColor_06 = imageRead(path + roadImage_06, cv2.IMREAD_COLOR)
+roadResult_06, edge, roi  = imageProcessing(roadColor_06)
+imageShow("roadColor_06", roadColor_06)
+imageShow("roadResult_06", roadResult_06)
+imageShow("edge6", edge)
+imageShow("roi6", roi)
+
+cv2.destroyAllWindows()
