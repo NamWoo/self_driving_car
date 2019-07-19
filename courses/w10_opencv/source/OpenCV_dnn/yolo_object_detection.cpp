@@ -50,25 +50,31 @@ int main(int argc, char** argv)
     VideoWriter writer;
     int codec = CV_FOURCC('M', 'J', 'P', 'G');
     double fps = parser.get<float>("fps");
-    if (parser.get<String>("source").empty())
-    {
-        int cameraDevice = parser.get<int>("camera_device");
-        cap = VideoCapture(cameraDevice);
-        if(!cap.isOpened())
-        {
-            cout << "Couldn't find camera: " << cameraDevice << endl;
-            return -1;
-        }
-    }
-    else
-    {
-        cap.open(parser.get<String>("source"));
-        if(!cap.isOpened())
-        {
-            cout << "Couldn't open image or video: " << parser.get<String>("video") << endl;
-            return -1;
-        }
-    }
+
+    int cameraDevice = parser.get<int>("camera_device");
+    cap = VideoCapture(1);   //cameraDevice
+
+    // if (parser.get<String>("source").empty())
+    // {
+    //     int cameraDevice = parser.get<int>("camera_device");
+    //     cap = VideoCapture(cameraDevice);   //cameraDevice
+    //     if(!cap.isOpened())
+    //     {
+    //         cout << "Couldn't find camera: " << cameraDevice << endl;
+    //         return -1;
+    //     }
+    // }
+    // else
+    // {
+    //     cap.open(parser.get<String>("source"));
+    //     if(!cap.isOpened())
+    //     {
+    //         cout << "Couldn't open image or video: " << parser.get<String>("video") << endl;
+    //         return -1;
+    //     }
+    // }
+
+
     if(!parser.get<String>("out").empty())
     {
         writer.open(parser.get<String>("out"), codec, fps, Size((int)cap.get(CAP_PROP_FRAME_WIDTH),(int)cap.get(CAP_PROP_FRAME_HEIGHT)), 1);
