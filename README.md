@@ -47,7 +47,7 @@
 | 8| [자율주행기능구현을위한차량용SW개발]     |인피니온보드 시스템 이해 그리고 실습|Infineon AURIX TC27CA, Lauterbach Trace32|황호현
 | 9| [차량용 OS 디바이스 프로그래밍]         |모듈, 디바이스 드라이버|ARM9 S3C2450, MDS2450|김성영
 |10| [자율주행 개발을 위한 OpenCV](./courses/w10.md)|차선 인식, 추출, 검출, 재구성 |C++, Python|왕진영
-|11| [ROS활용 및 QT프로그래밍]           |SLAM, QT멀티쓰레드||
+|11| [ROS활용 및 QT프로그래밍](./courses/w11.md)           |SLAM, QT멀티쓰레드|라즈베리파이3|
 |12| [NVIDIA TX보드를 활용한 딥러닝의 이해]|Deep Learning, Tensorflow|NVIDIA TX2|
 |13| [Digits서버와 Nvidia TX기반의 영상처리 딥러닝]|Digits Object Detection |NVIDIA TX2|
 |..|                                         | 앞으로 11월까지...총 24주...  |
