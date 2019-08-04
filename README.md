@@ -35,8 +35,8 @@
 >버티는게 이기는거다. 매일매일 쏟아지는 지식들 속에서 흘려 버릴건 흘리고 새로운 걸로 다시 퐉퐉 채우면서 정리를 하자! 나중에 다시 보고 되새김하며 주어담길 바라며 ***과정이 끝날 즈음 남우에게 시작 때 남우가***
 
 | Week| course             |        Abstract        |Linux and 실습장비|강사님|
-|:---:| :----------------- | :------------- |:---:|:---:|
-| 0| [OT](./courses/OT.md)                 |   첫 오리엔테이션|
+|:---:| :-----------------: | :-------------: |:---:|:---:|
+| 0| [OT](./courses/OT.md)                 |첫 오리엔테이션
 | 1| [C Programming](./courses/w01.md)        | C, 자료구조, 알고리즘||김성영|
 | 2| [Embedded C](./courses/w02.md)           | Embedded 최적화|ARM9 S3C2450, MDS2450 |김성영|
 | 3| [C++ Programming ](./courses/w03.md)     | C++언어 집중교육    ||서광원|
@@ -46,11 +46,15 @@
 | 7| [차량용 OS 시스템 프로그래밍]           | 리눅스 시스템 프로그래밍|ARM9 S3C2450, MDS2450 |서광원|
 | 8| [자율주행기능구현을위한차량용SW개발]     |인피니온보드 시스템 이해 그리고 실습|Infineon AURIX TC27CA, Lauterbach Trace32|황호현
 | 9| [차량용 OS 디바이스 프로그래밍]         |모듈, 디바이스 드라이버|ARM9 S3C2450, MDS2450|김성영
-|10| [자율주행 개발을 위한 OpenCV](./courses/w10.md)|차선 인식, 추출, 검출, 재구성 |C++, Python|왕진영
-|11| [ROS활용 및 QT프로그래밍](./courses/w11.md)           |SLAM, QT멀티쓰레드|라즈베리파이3|
-|12| [NVIDIA TX보드를 활용한 딥러닝의 이해]|Deep Learning, Tensorflow|NVIDIA TX2|
-|13| [Digits서버와 Nvidia TX기반의 영상처리 딥러닝]|Digits Object Detection |NVIDIA TX2|
+|10| [자율주행 개발을 위한 OpenCV](./courses/w10.md)|차선 인식, 추출, 검출, 재구성 ||왕진영
+|11| [ROS활용 및 QT프로그래밍](./courses/w11.md)           |SLAM, QT멀티쓰레드|Raspberry Pi3|
+|12| [NVIDIA TX보드를 활용한 딥러닝의 이해](./courses/w12.md)|Deep Learning, Tensorflow|NVIDIA Jetson TX1|최희욱|
+|13| [Digits서버와 Nvidia TX기반의 영상처리 딥러닝]|Digits Object Detection |NVIDIA Digits|
 |..|                                         | 앞으로 11월까지...총 24주...  |
+
+<!-- | |<img src="./intro.jpg" height="150" width="190">|<img src="./intro.jpg" height="150" width="190">|<img src="./intro.jpg" height="150" width="190"> -->
+<!-- | |<img src="./courses/w12_DL_JetsonTX/img/w12intro1.jpg" height="150" width="190">| -->
+
 
 * 사용 칩, 보드 상세정보
 * 강사님 상세정보

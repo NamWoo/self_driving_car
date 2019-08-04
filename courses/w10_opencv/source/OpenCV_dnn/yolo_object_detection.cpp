@@ -52,7 +52,7 @@ int main(int argc, char** argv)
     double fps = parser.get<float>("fps");
 
     int cameraDevice = parser.get<int>("camera_device");
-    cap = VideoCapture(1);   //cameraDevice
+    cap = VideoCapture(cameraDevice);   //cameraDevice
 
     // if (parser.get<String>("source").empty())
     // {
