@@ -1,0 +1,23 @@
+def get_callback(model_name, patient):
+    ES = EarlyStopping(
+        monitor='val_loss', 
+        patience=patient, 
+        mode='min', 
+        verbose=1)
+    RR = ReduceLROnPlateau(
+        monitor = 'val_loss', 
+        factor = 0.5, 
+        patience = patient / 2, 
+        min_lr=0.000001, 
+        verbose=1, 
+        mode='min')
+    MC = ModelCheckpoint(
+        filepath=model_name, 
+        monitor='val_loss', 
+        verbose=1, 
+        save_best_only=True, 
+        mode='min')
+
+    return [ES, RR, MC]
+
+    get_callback(model_name, 6)
