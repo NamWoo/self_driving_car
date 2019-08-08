@@ -1,0 +1,4 @@
+./detectnet-console dog_0.jpg output_0.jpg --prototxt=dnet/deploy.prototxt --model=dnet/snapshot_iter_6176.caffemodel --input_blob=data --output_cvg=coverage --output_bbox=bboxes 
+
+
+./detectnet-camera --prototxt=dnet/deploy.prototxt --model=dnet/snapshot_iter_6176.caffemodel --input_blob=data --output_cvg=coverage --output_bbox=bboxes
