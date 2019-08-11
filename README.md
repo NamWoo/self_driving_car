@@ -2,7 +2,7 @@
 
 ***NVIDIA 플랫폼 기반 자율주행차 구현을 위한 SW개발 및 실무프로젝트 과정*** with 한컴MDS
 
-
+  
 ![](./img/intro.jpg)
 
 * [한컴MDS Academy, 상세 커리큘럼](http://www.mdsacademy.co.kr/customer/board_view.php?board_idx=1585&schField=&schWord=nvidia&search_div=notice&size=10&page=1)
