@@ -50,7 +50,8 @@
 |11| [ROS활용 및 QT프로그래밍](./courses/w11.md)           |SLAM, QT멀티쓰레드|Raspberry Pi3|
 |12| [NVIDIA TX보드를 활용한 딥러닝의 이해](./courses/w12.md)|Deep Learning, Tensorflow|NVIDIA Jetson TX1|최희욱|
 |13| [Digits서버와 Nvidia TX기반의 영상처리 딥러닝](./courses/w13.md)|Digits, Detection, Segmentation |NVIDIA TX1,TX2, Digits Server|김혜진|
-|..|                                         | 앞으로 11월까지...총 24주...  |
+|14| [Drive PX 딥러닝을 활용한 ADAS 개발](./courses/w14.md)|ADAS|NVIDIA TX2, PX2||
+|..|                                         | 앞으로 11월 1일까지...|
 
 <!-- | |<img src="./intro.jpg" height="150" width="190">|<img src="./intro.jpg" height="150" width="190">|<img src="./intro.jpg" height="150" width="190"> -->
 <!-- | |<img src="./courses/w12_DL_JetsonTX/img/w12intro1.jpg" height="150" width="190">| -->
