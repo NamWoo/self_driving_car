@@ -1,0 +1,11 @@
+sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0/ ..
+
+sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0/ \
+ -DCMAKE_BUILD_TYPE=Release \
+ -DCMAKE_TOOLCHAIN_FILE=/usr/local/driveworks-0.6/samples/cmake/Toolchain-V4L.cmake \
+ -DVIBRANTE_PDK:STRING=/home/drivepx/NVIDIA/Drive/5050L_SDK/DriveSDK/drive-t186ref-linux \
+ /usr/local/driveworks-0.6/samples-class/
+
+
+
+
