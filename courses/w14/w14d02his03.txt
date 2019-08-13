@@ -1,0 +1,772 @@
+    1  sudo passwd
+    2  sudo visudo -f /etc/sudoers
+    3  sudo passwd
+    4  sudo add-apt-repository ppa:graphics-drivers/ppa
+    5  sudo apt-get update
+    6  sudo apt-get install nvidia-390 -y
+    7  history
+    8  sudo reboot
+    9  sudo apt-get install linux-headers-$(uname -r)
+   10  cd cuda
+   11  sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
+   12  cd cuda/
+   13  sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
+   14  sudo apt-get update
+   15  sudo apt-get install cuda
+   16  export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+   17  export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+   18  nvcc --version
+   19  cd ..
+   20  ls
+   21  cd driveworks/
+   22  chmod 777 DriveInstall_5.0.5.0L_SDK_b96.run 
+   23  ./DriveInstall_5.0.5.0L_SDK_b96.run 
+   24  sudo reboot
+   25  cd /usr/local/driveworks-0.6/bin
+   26  sudo ./sample-drivenet
+   27  sudo ./sample_drivenet
+   28  cd /usr/local/driveworks-0.6
+   29  ls
+   30  sudo cp -rf samles/ samples-class/
+   31  ls
+   32  sudo cp -rf samles/ samples-class/
+   33  sudo tar xzf ./samples.tar.gz -C /usr/local/driveworks-0.6/
+   34  sudo 
+   35  cd /usr/local/deriveworks-0.6
+   36  cd /usr/lical/driveworks-0.6
+   37  cd usr/local/driveworks=0.6
+   38  cd /usr/local/driveworks-0.6
+   39  ls
+   40  cd sample-class
+   41  cd sample-class/
+   42  cd samples-class/
+   43  ls
+   44  cd ../
+   45  ls /usr/local
+   46  cd /usr/local/driveworks-0.6
+   47  ls
+   48  cd sameples-class
+   49  cd samples-class
+   50  cd build
+   51  sudo cmake ..
+   52  sudo make install
+   53  cd
+   54  pwd
+   55  usr/local/drivework--.6/samples-class
+   56  cd usr/local/drivework-0.6/samples-class
+   57  cd usr/local/drivework-0.6
+   58  cd /usr/local/drivework-0.6/samples-class
+   59  cd usr/local/drivework-0.6/
+   60  cd /usr/local/drivework-0.6/
+   61  cd /usr/local/driveworks-0.6/
+   62  cd samples-class
+   63  cd /usr/local/deiveworks-0.6/
+   64  cd /usr/local/driveworks-0.6
+   65  ls
+   66  sudo rm -rf samples/ samples-class/
+   67  ls
+   68  cd samples-class/
+   69  cd samples-class
+   70  sudo rm -rf samples-class
+   71  cd samples-class
+   72  cd samples-class/
+   73  sudo rm -rf samples-class/
+   74  cd sample-class/
+   75  ls
+   76  suls
+   77  ls
+   78  cd samples-class/
+   79  ls
+   80  sudo mkdir build
+   81  cd build
+   82  sudo cmaks ..
+   83  sudo cmake ..
+   84  sudo make install
+   85  cd..
+   86  cd build..
+   87  ls
+   88  sudo make install
+   89  cd ..d ..cd..
+   90  cd ..\
+   91  sudo mkdir build
+   92  cd build
+   93  ls
+   94  sudo cmake ..
+   95  ls
+   96  sudo make
+   97  sudo make install
+   98  cd install/bin/
+   99  cd usr
+  100  clear
+  101  cd computer
+  102  clear
+  103  pwd
+  104  cd home
+  105  /home/drivepx
+  106  clear
+  107  cd /usr/local/driveworks-0.6/bin
+  108  ls
+  109  sudo ./sample_drivenet
+  110  pwd
+  111  cp abc.txt
+  112  cp abc.txt cba.txt
+  113  cp abc.txt
+  114  cp --help
+  115  scp nvidia@192.168.105.224:/home/nvidia/camexe.txt ./
+  116  ls
+  117  sudo ./sample_maps
+  118  sudo ./sample_camera_tracker
+  119  sudo ./sample_canbus_interpreter 
+  120  ls
+  121  sudo ./sample_sensors_info 
+  122  ls
+  123  sudo ./sample_drivenetNcameras 
+  124  ls
+  125  sudo ./sample_egomotion
+  126  sudo ./sample_color_correction
+  127  ../
+  128  cd ../
+  129  clear
+  130  ls
+  131  sudo cp -rf samples samplesEx
+  132  sudo cp -rf samples-class samplesEx
+  133  ls
+  134  cd samples
+  135  cd samplesEx
+  136  sudo mkdir build
+  137  cd build
+  138  sudo cmake ..
+  139  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0/ ..
+  140  sudo rm -rf *
+  141  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0/ ..
+  142  sudo make
+  143  sudo make install
+  144  ls
+  145  cd install/bin
+  146  ls
+  147  sudo ./sample_hello_world 
+  148  sudo ./sample_camera_pointgrey
+  149  sudo ./sample_camera_seek
+  150  history
+  151  ls
+  152  sudo ./sample_third_party_camera
+  153  sudo ./sample_stereo_rectifier
+  154  ls
+  155  sudo ./sample_radar_replay
+  156  sudo ./sample_freespace_detection
+  157  ls
+  158  sudo ./sample_camera_scaling_tracker
+  159  cd ../
+  160  cd build
+  161  cd bin
+  162  cd install/bin
+  163  sudo ./sample_hello_world
+  164  cd ../
+  165  cd src/
+  166  cd hello_world/
+  167  ls
+  168  sudo vim main.cpp
+  169  sudo vim ./main.cpp
+  170  sudo vim main.cpp
+  171  ls
+  172  sudo vim  main.cpp
+  173  sudo vim main.cpp
+  174  vim main. cpp
+  175  vim
+  176  sudo vim
+  177  sudo vim main.cpp
+  178  ls
+  179  sudo vim main.cpp
+  180  sudo apt-get install vim
+  181  sudo vim main.cpp
+  182  sudo vim CMakeLists.txt
+  183  cd build/
+  184  cd ../cd ../
+  185  cd ../
+  186  cd src/hello_drivepx2/
+  187  cd src/hello_world
+  188  ls
+  189  sudo vim CMakeLists.txt
+  190  history
+  191  cd ../
+  192  ls
+  193  scp nvidia@192.168.105.224:/home/nvidia/build.txt ./
+  194  scp nvidia@192.168.105.224:/home/nvidia/camexe.txt ./
+  195  sudo mkdir build-px
+  196  cd build-px
+  197  ls
+  198  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=usr/local/cuda-0.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/usr/local/driveworks-0.6/samples/cmake/Toolchain-V4L.cmake -DVIBRANTE_PDK:STRING=/home/drivepx/NVIDIA/Drive/5050L_SDK/DriveSDK/drive-t186ref-linux /usr/local/driveworks-0.6/samplesEx/
+  199  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=usr/local/cuda-9.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/usr/local/driveworks-0.6/samples/cmake/Toolchain-V4L.cmake -DVIBRANTE_PDK:STRING=/home/drivepx/NVIDIA/Drive/5050L_SDK/DriveSDK/drive-t186ref-linux /usr/local/driveworks-0.6/samplesEx/
+  200  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/usr/local/driveworks-0.6/samples/cmake/Toolchain-V4L.cmake -DVIBRANTE_PDK:STRING=/home/drivepx/NVIDIA/Drive/5050L_SDK/DriveSDK/drive-t186ref-linux /usr/local/driveworks-0.6/samplesEx/
+  201  sudo cmake ..
+  202  sudo cmake..
+  203  sudo cmake ..
+  204  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/usr/local/driveworks-0.6/samples/cmake/Toolchain-V4L.cmake -DVIBRANTE_PDK:STRING=/home/drivepx/NVIDIA/Drive/5050L_SDK/DriveSDK/drive-t186ref-linux /usr/local/driveworks-0.6/samplesEx/
+  205  history
+  206  sudo rm -rf build-px
+  207  cd ../
+  208  sudo rm -rf build-px
+  209  sudo mkdir build-px
+  210  cd build-px
+  211  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/usr/local/driveworks-0.6/samples/cmake/Toolchain-V4L.cmake -DVIBRANTE_PDK:STRING=/home/drivepx/NVIDIA/Drive/5050L_SDK/DriveSDK/drive-t186ref-linux /usr/local/driveworks-0.6/samplesEx/
+  212  sudo rm -rf *
+  213  cmake ..
+  214  sudo cmake ..
+  215  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0/ ..
+  216  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/usr/local/driveworks-0.6/samples/cmake/Toolchain-V4L.cmake -DVIBRANTE_PDK:STRING=/home/drivepx/NVIDIA/Drive/5050L_SDK/DriveSDK/drive-t186ref-linux /usr/local/driveworks-0.6/samplesEx/
+  217  cd..
+  218  cd ../
+  219  cd src/sensors
+  220  ls
+  221  sudo vim camera_multiple_replay
+  222  cd ../
+  223  cd build/bin
+  224  cd build
+  225  cd bin
+  226  cd install
+  227  cd bin
+  228  sudo ./sample_camera_multiple_replay 
+  229  cd ../
+  230  cd src
+  231  cd sensors
+  232  sudo vim camera_multiple_replay
+  233  cd ../
+  234  cd build
+  235  cd install
+  236  cd bin
+  237  sudo ./sample_camera_multiple_replay 
+  238  cd ../
+  239  cd src
+  240  cd sensors
+  241  sudo vim camera_multiple_replay
+  242  cd ../
+  243  cd build
+  244  cd install
+  245  cd bin
+  246  sudo ./sample_camera_multiple_replay
+  247  sudo ./sample_camera_multiple_replay --video1=/usr/local/driveworks-0.6/samplesEx/../data/samples/sfm/triangulation/video_0.h264 --video2=/usr/local/driveworks-0.6/samplesEx/../data/samples/sfm/triangulation/video_1.h264
+  248  sudo cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/usr/local/driveworks-0.6/samples/cmake/Toolchain-V4L.cmake -DVIBRANTE_PDK:STRING=/ssd2/NVIDIA/Drive/5050L_SDK/DriveSDK/drive-t186ref-linux /usr/local/driveworks-0.6/samplesEx/
+  249  cd ../
+  250  cd src
+  251  cd lanedetction/
+  252  cd laneDetction/
+  253  ls
+  254  cd laneDetection
+  255  ls
+  256  cd laneDetection
+  257  ls
+  258  cd /usr/local/driveworks-0.6/
+  259  cd bin
+  260  sudo ./sample_drivenet
+  261  ls
+  262  sudo cp -rf samples-class samplessu
+  263  sudo cp -rf ./caffemodel/ /usr/local/driveworks-0.6/tools
+  264  chmod 777 ./DriveInstall_5.0.5.0L_SDK_b96.run 
+  265  ./DriveInstall_5.0.5.0L_SDK_b96.run 
+  266  scp nvidia@192.168.105.224:/home/nvidia/drivepx2.zip ./
+  267  sudo cd -rf ./caffemodel/ /usr/local/driveworks-0.6/tools
+  268  cd
+  269  cd /usr/local/driveworks-0.6/tools
+  270  sudo ./tensorRT_optimization --prototxt=caffemodel/deploy.prototxt --caffemodel=caffemodel/snapshot_iter_3190.caffemodel --outputBlobs=coverage,bboxes --modelType=caffe
+  271  sudo cp -rf ./caffemodel/ /usr/local/driveworks-0.6/tools
+  272  sudo cp -rf ./caffemodel /usr/local/driveworks-0.6/tools
+  273  sudo cp -rf ./caffemodel/ /usr/local/driveworks-0.6/tools
+  274  sudo cp -rf ./caffemodel /usr/local/driveworks-0.6/tools
+  275  sudo ./tensorRT_optimization --prototxt=caffemodel/deploy.prototxt --caffemodel=caffemodel/snapshot_iter_3190.caffemodel --outputBlobs=coverage,bboxes --modelType=caffe
+  276  sudo ./sample_object_detector --video=/usr/local/driveworks-0.6/data/samples/localization/camera.h264 --tensorRT_model=/usr/local/driveworks-0.6/tools/optimized.bin
+  277  cd ..
+  278  sudo ./tensorRT_optimization --prototxt=caffemodel/deploy.prototxt --caffemodel=caffemodel/snapshot_iter_3190.caffemodel --outputBlobs=coverage,bboxes --modelType=caffe
+  279  sudo ./sample_object_detector --video=/usr/local/driveworks-0.6/data/samples/localization/camera.h264 --tensorRT_model=/usr/local/driveworks-0.6/tools/optimized.bin
+  280  ./main.cpp
+  281  sudo ./main.cpp
+  282  vi main.cpp
+  283  vi CMakeLists.txt
+  284  sudo vi main.cpp
+  285  sudo vi CMakeLists.txt 
+  286  scp ./Kkyung nvidia@192.168.105.232:/home/nvidia
+  287  vi kkyung
+  288  vi Kkyung
+  289  cd build
+  290  make
+  291  sudo cmake ..
+  292  cd ..
+  293  cd build/
+  294  sudo rm -rf *
+  295  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0/ ..
+  296  sudo make
+  297  sudo make install
+  298  ls
+  299  cd ..
+  300  sudo cp -rf ./samples-class ./ samples
+  301  sudo cp -rf ./samples-class ./samples
+  302  cd samplessu
+  303  sudo mkdir buildpx
+  304  cd buildpx
+  305  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/usr/local/driveworks-0.6/samples/cmake/Toolchain-V4L.cmake -DVIBRANTE_PDK:STRING=/home/drivepx/NVIDIA/Drive/5050L_SDK/DriveSDK/drive-t186ref-linux /usr/local/driveworks-0.6/samplessu/
+  306  sudo make install
+  307  ls
+  308  sudo ./Kkyung
+  309  sudo ./Kkyung 
+  310  scp ./Kkyung nvidia@192.168.105.224:/home/nvidia/
+  311  cd ../../\
+  312  cd ../../
+  313  cd ..
+  314  ls
+  315  cd buildpx/\
+  316  cd buildpx
+  317  ls
+  318  cd install/bin/
+  319  ls
+  320  file Kkyung 
+  321  scp ./Kkyung nvidia@192.168.105.232:/home/nvidia/
+  322  nvcc --version
+  323  ls
+  324  mkdir iitp
+  325  cd iitp
+  326  sudo apt install python-pip
+  327  mkdir python
+  328  cd python
+  329  sudo pip install virtualenv
+  330  pwd
+  331  sudo pip install virtualenv
+  332  cd
+  333  ll /home/drivepx/.cache/pip/htt
+  334  ll /home/drivepx/.cache/pip/
+  335  ll /home/drivepx/.cachecd 
+  336  sudo -H pip install virtualenv
+  337  pip install --upgrade pip
+  338  sudo -H pip install virtualenv
+  339  virtualenv rose
+  340  source rose/bin/activate
+  341  deactivate
+  342  cd iitp
+  343  cd python
+  344  sudo -H pip install virtualenv
+  345  virtualenv rose
+  346  pip install requests
+  347  sudo -H pip install requests
+  348  source rose/bin/activate
+  349  sudo -H pip install requests
+  350  sudo -H apt-get install python-pip python-dev
+  351  $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.9.0-cp27-none-linux_x86_64.whl
+  352  export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.9.0-cp27-none-linux_x86_64.whl
+  353  sudo -H pip install --upgrade $TF_BINARY_URL
+  354  history
+  355  pip list
+  356  sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.9.0-cp27-none-linux_x86_64.whl
+  357  pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.9.0-cp27-none-linux_x86_64.whl
+  358  pip list
+  359  clear
+  360  pip install --upgrade tensorflow
+  361  pip list
+  362  pip install --upgrade tensorflow-gpu
+  363  pip list
+  364  ls
+  365  cd rose
+  366  ls
+  367  cd ex
+  368  ls
+  369  python tf_nn_sparse_softmax_cross_entropy_with_logits_example.py 
+  370  python 2.1-install_check.py 
+  371  python tf_nn_sparse_softmax_cross_entropy_with_logits_example.py 
+  372  python 2.1-install_check.py 
+  373  python tf_nn_sparse_softmax_cross_entropy_with_logits_example.py 
+  374  export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64"
+  375  export CUDA_HOME=/usr/local/cuda
+  376  python tf_nn_sparse_softmax_cross_entropy_with_logits_example.py 
+  377  cd 
+  378  pip uninstall tensorflow-gpu
+  379  pip list
+  380  cd rose
+  381  cd ex
+  382  ls
+  383  deactivate
+  384  activate
+  385  cd
+  386  cd rise
+  387  cd rose
+  388  ls
+  389  cd ..
+  390  ls
+  391  cd iitp/
+  392  source rose/bin/activate
+  393  ls
+  394  python
+  395  cd python
+  396  source rose/bin/activate
+  397  cd rose/ex/
+  398  ls
+  399  python tf_nn_sparse_softmax_cross_entropy_with_logits_example.py 
+  400  cd
+  401  pip list
+  402  ls
+  403  rm rose
+  404  rm -rf rose
+  405  cd iitp
+  406  cd python
+  407  ls
+  408  source rose/bin/activate
+  409  cd rose/ex
+  410  ls
+  411  python tf_nn_sparse_softmax_cross_entropy_with_logits_example.py 
+  412  cd
+  413  pip list
+  414  pip uninstall tensorflow
+  415  ls
+  416  pip list
+  417  pip install tensorflow
+  418  cd rose/ex/
+  419  ls
+  420  cd iitp/python/rose/ex
+  421  python tf_nn_sparse_softmax_cross_entropy_with_logits_example.py 
+  422  vim 2.1-install_check.py 
+  423  vim tf_nn_sparse_softmax_cross_entropy_with_logits_example.py 
+  424  ls
+  425  python mnist_classification_using_ann.py 
+  426  vim mnist_classification_using_ann.py 
+  427  cd iitp/python/
+  428  source rose/bin/activate
+  429  ls
+  430  cd rose
+  431  ls
+  432  cd ex
+  433  ls
+  434  python tf_nn_sparse_softmax_cross_entropy_with_logits_example.py 
+  435  ls
+  436  python mnist_classification_using_ann.py 
+  437  python -version
+  438  version- python
+  439  clear
+  440  ls
+  441  cd ..
+  442  cd
+  443  python3 -v
+  444  python3 -V
+  445  ls
+  446  cd iitp/python/rose/
+  447  sudo atp-get install python3-numpy
+  448  sudo apt-get install python3-numpy
+  449  sudo apt-get install python3-pip
+  450  ls
+  451  cd image/imagenet/
+  452  ls
+  453  cd ..
+  454  cd mnist
+  455  python convolutional.py 
+  456  cd ..
+  457  cd asirra/
+  458  ls
+  459  python3 train2.py 
+  460  vim train2.py 
+  461  cd ..
+  462  pip3 install --upgrade tensorflow
+  463  pip install --upgrage pip
+  464  pip install --upgrade pip
+  465  cd ..
+  466  sudo atp-get install python3-venv
+  467  sudo apt-get install python3-venv
+  468  python3 -m venv tutorial-env
+  469  ls
+  470  source tutorial-env/bin/activate
+  471  cd rose
+  472  cd asirra/
+  473  ls
+  474  python3 train2.py 
+  475  cd ..
+  476  sudo apt -get install python3-numpy
+  477  sudo apt-get install python3-numpy
+  478  sudo apt-get install python3-pip
+  479  pip3 install --upgrade tensorflow
+  480  pip3 install --upgrade scikit-image
+  481  cd rose/asirra/
+  482  ls
+  483  python3 train2.py 
+  484  pip3 install -U scikit-learn scipy matplotlib
+  485  python3 train2.py 
+  486  vim train2.py 
+  487  python3 train2.py 
+  488  deactive
+  489  sudo ./sample_drivenet
+  490  sudo ./sample_sfm
+  491  cd ..
+  492  cd iitp
+  493  ls
+  494  cd ..
+  495  scp nvidia@192.168.105.224:/home/nvidia/iitp/sample-class12.tar.gz ./
+  496  scp nvidia@192.168.105/224:/home/nvidia/iitp/sample-class12.tar.gz ./
+  497  scp nvidia@192.168.105.224:/home/nvidia/iitp/sample-class12.tar.gz ./
+  498  sudo 
+  499  sudo 1
+  500  scp nvidia@192.168.105.224:/home/nvidia/iitp/sample-class12.tar.gz ./home
+  501  cd
+  502  scp nvidia@192.168.105.224:/home/nvidia/iitp/sample-class12.tar.gz ./home
+  503  tar xzf ./sample-class12.tar.gz
+  504  cp sample-class12.tar.gz
+  505  ls
+  506  cp sample.tar.gz 다운로드
+  507  cp 다운로드 samples.tar.gz
+  508  cp samples.tar.gz 다운로드
+  509  tar xzf ./sample-class12.tar.gz
+  510  tar xzf ./samples-class12.tar.gz
+  511  tar xzf ./sample-class12.tar.gz
+  512  tar xzf ./samples-class12.tar.gz
+  513  cd 다운로드
+  514  ls
+  515  cd scp nvidia@192.168.105.224:/home/nvidia/iitp/sample-class12.tar.gz ./
+  516  scp nvidia@192.168.105.224:/home/nvidia/iitp/sample-class12.tar.gz ./
+  517  ls
+  518  tar xzf ./sample-class12.tar.gz 
+  519  ls
+  520  sudo cp -rf ./sample-class12 /usr/local/driveworks-0.6/
+  521  cd src/
+  522  ls
+  523  cd ..
+  524  cd 다운로드
+  525  ls
+  526  cd sample-class12/
+  527  cd usr/local/drivework-0.6
+  528  ls
+  529  cd sr
+  530  cd src
+  531  ls
+  532  cd hello_world/
+  533  ls
+  534  cd main.cpp
+  535  vim main.cpp 
+  536  ls
+  537  vim CMakeLists.txt 
+  538  sudo vim main.cpp
+  539  ls
+  540  ls /usr/local/cuda-9.0
+  541  sudo mkdir build
+  542  cd build
+  543  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0/ ..
+  544  vim ../../../CMakeLists.txt 
+  545  scp nvidia@192.168.105.224:/home/nvidia/iitp/CMakeList.txt ./
+  546  scp nvidia@192.168.105.224:/home/nvidia/iitp/CMakeLists.txt ./
+  547  cd
+  548  scp nvidia@192.168.105.224:/home/nvidia/iitp/CMakeLists.txt ./
+  549  cd /usr/local/driveworks-0.6/sample-class12/
+  550  ls
+  551  vim CMakeLists.txt 
+  552  sudo vim CMakeLists.txt 
+  553  ls
+  554  cd src
+  555  ls
+  556  cd ..
+  557  ls
+  558  mkdir build
+  559  sudo mkdir build
+  560  ls
+  561  cd build
+  562  sudo cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-9.0/ ..
+  563  ls\
+  564  ls
+  565  sudo make
+  566  sudo make install
+  567  ls
+  568  history
+  569  ls
+  570  cd install/
+  571  ls
+  572  cd bin
+  573  ls
+  574  sudo ./sample_hello_world 
+  575  ls
+  576  cd iitp
+  577  ls
+  578  scp ./convert_16-10_3.cpp nvidia@192.168.105.224:/home/nvidia/iitp/
+  579  scp convert_16-10_3.cpp nvidia@192.168.105.224:/home/nvidia/iitp/
+  580  scp ./convert_16-10_3.cpp nvidia@192.168.105.224:/home/nvidia/iitp/
+  581  scp ./convert_16-10_3.cpp:/home
+  582  scp nvidia@192.168.105.224:/home/nvidia/iitp/fillMessage.JPG ./
+  583  ls
+  584  cd iitp
+  585  ls
+  586  scp nvidia@192.168.105.224:/home/nvidia/iitp/convert16 ./
+  587  scp nvidia@192.168.105.224:/home/nvidia/iitp/convert16_3 ./
+  588  cd ..
+  589  ls
+  590  cd iitp/
+  591  ls
+  592  scp nvidia@192.168.105.224:/home/nvidia/iitp/fillMessage_16_4.cpp ./
+  593  ls
+  594  scp nvidia@192.168.105.224:/home/nvidia/iitp/fillMessage.JPG ./
+  595  ls
+  596  g++ -o fillmsg fillMessage
+  597  cd ..
+  598  ./class_setting12.sh
+  599  ls
+  600  cd usr
+  601  cd usr/
+  602  cd home
+  603  cd iitp
+  604  ls
+  605  cd ..
+  606  sudo scp nvidia@192.168.105.224:/home/nvidia/iitp/canbus_acctest.tar.gz ./
+  607  ls
+  608  sudo tar xzf canbus_acctest.tar.gz
+  609  ls
+  610  cd canbus_acctest/
+  611  ls
+  612  make
+  613  make main.cpp
+  614  cd ..
+  615  ls
+  616  cd iitp
+  617  scp nvidia@192.168.105.224:/home/nvidia/iitp/infertest1.tar.gz ./
+  618  cd /usr/local/driveworks-0.6/tools
+  619  cd //
+  620  cd..
+  621  cd
+  622  cd iitp
+  623  ls
+  624  cd infertest1/
+  625  ls
+  626  sudo cp -rf caffemode/ /usr/local/driveworks-0.6/tools/
+  627  sudo cp -rf caffemodel/ /usr/local/driveworks-0.6/tools/
+  628  sudo ./tensorRT_optimization --prototxt=caffemodel/deploy.prototxt --caffemodel=caffemodel/snapshot_iter_3190.caffemodel --outputBlobs=coverage,bboxes --modelType=caffe
+  629  sudo ./tensorRT_optimization --prototxt=caffemodel/deploy.prototxt --caffemodel=caffemodel/ snapshot_iter_3190.caffemodel --outputBlobs=coverage,bboxes --modelType=caffe
+  630  cd
+  631  cd /usr/local
+  632  cd driveworks-0.6/tools/
+  633  ls
+  634  sudo ./tensorRT_optimization --prototxt=caffemodel/deploy.prototxt --caffemodel=caffemodel/snapshot_iter_3190.caffemodel --outputBlobs=coverage,bboxes --modelType=caffe
+  635  cd ../bin/
+  636  sudo ./sample_object_detector --video=/usr/local/driveworks-0.6/data/samples/localization/camera.h264 --tensorRT_model=/usr/local/driveworks-0.6/tools/optimized.bin
+  637  cd 1st_OpenCV_Cuda_in_Ubuntu/
+  638  make
+  639  make
+  640  ./out
+  641  make
+  642  make all
+  643  cd ..
+  644  cd 10_Vector_Add/
+  645  make
+  646  nvprof ./out.o
+  647  make
+  648  scp nvidia@192.168.105.2:/home/nvidia/iipt/1st.7z
+  649  scp nvidia@192.168.105.2:/home/nvidia/iipt/1st.7z ./
+  650  cd 1st_OpenCV_Cuda_in_Ubuntu/
+  651  chmod +x Install_OpenCV_with_CUDA.sh
+  652  sudo ./Install_OpenCV_with_CUDA.sh 
+  653  pkg-config --libs --cflags opencv
+  654  cd iitp
+  655  scp nvidia@192.168.105.2:/home/nvidia/Downloads/TensorRT-4.0.tar.gz ./
+  656  sudo chmod 777 ./TensorRT-4.0.tar.gz
+  657  sudo tar xzf ./TensorRt-4.0.tar.gz -C /usr/src/
+  658  sudo tar xzf ./TensorRT-4.0.tar.gz -C /usr/src
+  659  scp ./sampleTRTEx.zip nvidia@192.168.105.2:/home/nvidia/iitp
+  660  scp ./sampleTRTEx.zip nvidia@192.168.105.2:/home/nvidia/Downloads/
+  661  scp ./sampleTRTEx.zip nvidia@192.168.105.2:/home/
+  662  scp nvidia@192.168.105.2:/home/nvidia/sampleTRTEx.zip ./
+  663  ls
+  664  cd data
+  665  ls
+  666  ls ssd
+  667  cd ..
+  668  cd samples/
+  669  ls
+  670  cd sampleMNIST/
+  671  ls
+  672  gedit sampleMNIST.cpp 
+  673  cd iitp
+  674  scp nvidia@192.168.105.224:/home/nvidia/iitp/TRTsample_1218.tar.gz ./
+  675  sudo tar xzf ./TRTsample_1218.tar.gz 
+  676  cd TRTsample/
+  677  export LD_LIBRARY_PATH="/usr/local/cuda-9.0/lib64/:/usr/src/TensorRT-4.0.1.6/targets/x86_64-linux-gnu/lib"
+  678  echo $PATH
+  679  cd samples
+  680  cd sampleMNIST/
+  681  ls
+  682  vim sampleMNIST.cpp 
+  683  cd //
+  684  cd iitp
+  685  cd iitp/
+  686  cd
+  687  cd iitp
+  688  cd TRTsample/targets/x86_64-linux-gnu/bin/
+  689  export LD_LIBRARY_PATH="/usr/src/TensorRT-4.0.1.6/targets/x86_64-linux-gnu/lib/"
+  690  ./sample_uff_mnist
+  691  chmod +x tensorflow_objectdetection_api_install.sh 
+  692  ./tensorflow_objectdetection_api_install.sh 
+  693  scp nvidia@192.168.105.2:/home/nvidia/mds/3rd_codes.7z ./
+  694  chmod +x unzip_TF_OBJ_CODES.sh 
+  695  gedit ~/.bashrc
+  696  chmod +x tensorflow_objectdetection_install_check.sh 
+  697  ./ tensorflow_objectdetection_install_check.sh 
+  698  source
+  699  pip install jupyter notebook
+  700  echo "export OBJ_PATH=$(pwd)" >> ~/.bashrc
+  701  echo "export TF_PATH=$HOME/TFOBJ" >> ~/.bashrc
+  702  source ~/.bashrc
+  703  echo "export PYTHONPATH=\$PYTHONPATH:$TF_PATH/models/research/:$TF_PATH/models/research/slim/:$TF_PATH/models/research/object_detection/" >> ~/.bashrc
+  704  source ~/.bashrc
+  705  gedit ~/.bashrc
+  706  ./tensorflow_objectdetection_install_check.sh 
+  707  scp nvidia@192.168.105.2:/home/nvidia/mds/cudnn.tar ~/.
+  708  scp nvidia@192.168.105.2:/home/nvidia/mds/cudnn.tgz ~/.
+  709  sudo nautinus
+  710  sudo nautilus
+  711  tar xvf cudnn.tgz
+  712  sudo cp -r ~/cuda/* /usr/local/cuda-9.0/*
+  713  sudo cp -rf ~/cuda/* /usr/local/cuda-9.0/*
+  714  sudo cp -r ~/cuda/include/cudnn.h /usr/local/cuda-9.0/include/.
+  715  sudo cp -r ~/cuda/lib64/libcudnn.so /usr/local/cuda-9.0/include/.
+  716  sudo cp -r ~/cuda/lib64/libcudnn.so.7 /usr/local/cuda-9.0/include/.
+  717  sudo cp -r ~/cuda/lib64/* /usr/local/cuda-9.0/lib64/
+  718  ./tensorflow_objectdetection_install_check.sh
+  719  ./tensorflow_objectdetection_install_check.sh 
+  720  ./tensorflow_objectdetection_install_check.sh 
+  721  chmod +x kitti_data_tfrecord.sh 
+  722  ./kitti_data_tfrecord.sh 
+  723  pip install labelImg
+  724  python kitti_data_augmentation.py 
+  725  pip install lavelImg
+  726  history
+  727  source /home/drivepx/TFOBJ/OBJECT_DETECTION_TF/bin/activate
+  728  pip install labelImg
+  729  labelImg
+  730  pip install pyqt5 sip
+  731  pip install resources
+  732  pip install requests
+  733  pip install staty
+  734  sudo apt install pyqt5-dev-tools
+  735  sudo pip3 install -r requirements/requirements-linux-python3.txt
+  736  make qt4py2
+  737  make qt5py3
+  738  python3 labelImg.py 
+  739  pip3 install pandas
+  740  python xml_to_csv.py 
+  741  python3 xml_to_csv.py 
+  742  python3 generate_tfrecord.py 
+  743  source /home/drivepx/TFOBJ/OBJECT_DETECTION_TF/bin/activate
+  744  python generate_tfrecord.py --csv_input=raccoon_labels.csv --csv --output_path=train.tfrecord --image_dir=images/
+  745  chmod +x JetPack-L4T-3.3-linux-x64_b39.run 
+  746  ./JetPack-L4T-3.3-linux-x64_b39.run 
+  747  chmod +x unzip_TF_OBJ_CODES.sh
+  748  ./unzip_TF_OBJ_CODES.sh
+  749  chmod +x docker_install.sh
+  750  ./docker_install.sh
+  751  chmod +x nvidia-docker.sh
+  752  ./nvidia-docker.sh
+  753  TFSTART
+  754  TFATTACH
+  755  TFATTACH 
+  756  TFATTACH 
+  757  TFRESTART 
+  758  TFATTACH 
+  759  scp 192.168.105.100:/home/drivepx/frozen_inference_graph.pb ~/
+  760  cp frozen_inference_graph.pb $OBJ_PATH /.
+  761  cp frozen_inference_graph.pb $OBJ_PATH/.
+  762  TFATTACH 
+  763  cd NVIDIA
+  764  ls
+  765  sudo rm -rf Drive
+  766  cd
+  767  ls
+  768  cd driveworks_6/
+  769  ./DriveInstall_5.0.5.0L_SDK_b96.run 
+  770  history
+  771  sudo history >> ~/바탕화면/w14d02his03.txt
+  772  history >> ~/바탕화면/w14d02his03.txt
