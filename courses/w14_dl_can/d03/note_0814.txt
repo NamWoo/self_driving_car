@@ -1,0 +1,14 @@
+원하는 위치에서 
+1. scp nvidia@192.168.105.56:/home/nvidia/iitp1/canbus_acctest.tar.gz ./
+2. tar xzf canbus_acctest.tar.gz 
+* CMakeList 의 프로그램 이름 변경 
+3. ~/iitp1$ sudo cp -rf ./canbus_acctest /usr/local/driveworks-0.6/samples-class/src/
+cd /usr/local/driveworks-0.6/samples-class/src/
+4. sudo vim ../CMakeLists.txt
+    67 라인에서 canbus_acctest 폴더명 추가
+ cd canbus_acctest/
+5.  sudo vim CMakeLists.txt 프로그램 명칭 변 경 확 인 
+ 
+    
+ 
+
