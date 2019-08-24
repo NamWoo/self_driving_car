@@ -1,0 +1,13 @@
+1. copy your sample_ssd_relu6.uff to /opt/nvidia/deepstream/deepstream-4.0/sources/objectDetector_SSD
+
+2. copy ssd_coco_labels.txt to /opt/nvidia/deepstream/deepstream-4.0/sources/objectDetector_SSD
+cd /opt/nvidia/deepstream/deepstream-4.0/sources/objectDetector_SSD
+
+3. build so
+export CUDA_VER=10.0
+make -C nvdsinfer_custom_impl_ssd
+
+4. execute
+deepstream-app -c deepstream_app_config_ssd.txt
+
+
