@@ -52,7 +52,7 @@
 |13| [Digits서버와 Nvidia TX기반의 영상처리 딥러닝](./courses/w13.md)|Digits, Detection, Segmentation |NVIDIA TX1,TX2, Digits Server|김혜진|
 |14| [Drive PX2 딥러닝을 활용한 ADAS 개발](./courses/w14.md)|ADAS|NVIDIA Drive PX2|김혜진|
 |15| [자율주행 상황인지를 위한 TF Object Detection](./courses/w15.md)|SSD, Yolo|NVIDIA TX2, Xavier|김혜진, 왕진영|
-|16| [자율주행 모형차를 활용한 자율주행기술구현](./courses/w16.md)||모형차||
+|16| [자율주행 모형차를 활용한 자율주행기술구현](./courses/w16.md)||모형차, ros, 시뮬레이터|김혜진,자이트론|
 |..|                                         | 앞으로 11월 1일까지...|
 
 <!-- | |<img src="./intro.jpg" height="150" width="190">|<img src="./intro.jpg" height="150" width="190">|<img src="./intro.jpg" height="150" width="190"> -->
