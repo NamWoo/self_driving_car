@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find lecture_6_ex_t)/launch/include/vesc.launch"/>
+  <node pkg="lecture_6_ex_t" type="go_video.py" name="go_video" output="screen"/>
+</launch>

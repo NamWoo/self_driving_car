@@ -1,0 +1,2 @@
+lecture_4_ex_s:lecture_6_ex_s:racecar-controllers/racecar_controllers:racecar-controllers/racecar_potential_field_controller:racecar-controllers/racecar_safety_controller:racecar/ackermann_cmd_mux:racecar/racecar:racecar/sparkfun_9dof_razor_imu_m0:razor_imu_9dof:rplidar_ros:test_ors_pkg:usb_cam:vesc/vesc:vesc/vesc_ackermann:vesc/vesc_driver:vesc/vesc_msgs
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/xycar/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/xycar/install -G Unix Makefiles

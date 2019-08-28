@@ -1,0 +1,6 @@
+임베디드
+
+watch -n 1 nvidia-smi
+
+sudo ~ ./tegrastats
+

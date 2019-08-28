@@ -1,0 +1,15 @@
+클라우드 정보입니다.
+ssh 접근용 IP : 101.101.167.51
+ssh 접근용 포트 : 6909
+팀용 장비 IP : 106.10.59.159:8888
+
+
+http://0.0.0.0:8888/?token=b1badab906e03f1b9010973eeed5f50baee72fb607385bbc :: /home/dsc/jup_notebook
+
+
+
+Download Visual Studio Code for Linux
+Extract it: unzip VSCode-linux-x64.zip -d ~/path/to/VSCode
+Run the code executable to open Visual Studio Code
+(Optional) Create a symbolic link to conveniently run code from the terminal:
+sudo ln -s /path/to/VSCode/code /usr/local/bin/code

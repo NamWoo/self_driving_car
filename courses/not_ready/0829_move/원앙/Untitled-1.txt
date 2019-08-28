@@ -1,0 +1,101 @@
+마스터 말씀
+
+이미지 명대우 제조업, 머신비전
+
+end to end raw input single 모델로만 최고의 점수를 내는 것.
+
+모두 다 맞지는 안지만 그래도 요즘 hot autoML h20 aws datarobut 회사 오토엠델 소프트웨어 보고 데이터사이언스 사라지겠다 ㄴ낌
+
+cv ensemble
+
+이미지
+128/224
+간단한 어그멘테이션 augmentation, flip, rotate90 
+use samll size back bone - mobilenetV2, seresnet18
+
+정보는 다 넣어야 모두 포함하게끔 노력
+
+이미지는 사이즈, 확대보다 크게 높게 보게, 사이즈 키우니까 점수 많이 올랐다. , 단백질 쪽
+
+도메인 지식 더 중요하다.
+
+데이터 
+
+github.com/aleju/imgaug  
+
+증강, 다양핳 수록 좋다? 아니다. 데이터 따라 다르다.
+이미지를 보고 나올법한 것을 만드러야 한다. 도메인 지식으로 접근
+
+
+TTA test Time augmentation 공짜 점심
+
+different input size도 활용
+확률평균,  temperture scaling 후 평균사용
+단 역시 나올법한 것으로 만들어야 한다 역시 도메인이 필요하다.
+
+
+발리데이션 데이터 스필릿
+random하게 뽑아도 validation score와 public lb가 같은 방향으로 움직인다면 오케
+라벨수량배분
+라벨 종류가 많지 않다면 버블릭 lb probing, train set 의 분호와 비슷한지 검증
+다르다면 펍블릭 test set 분포에 맞춰서 나누어야.
+세그멘테이션이라면 오브젝트/배경 비율로 배분
+멀티라벨테스크라면 멀티라벨 고려한 스필릿 
+https://scikit.ml/stratification.html
+데이터 사이즈 작아 리소스 충분하다면 cv 흔하지 않지만.
+보통은 리소스 부족하니까 항상블할 모델에 서로 다른 벨리세이션 셋 적용
+
+
+벡보 모델 1포크 로 가지고 있기
+
+베치사이즈는 크면 클수록 ㅗㅎㄷ다.
+
+trick1, 1차 트레인 후 layer 90% 정도를 freeze하고 뒤쪽 layer만 추가 학습
+cum_iter:30, shape(512,512,4)
+gitbub.com/ttagu99/protein_class
+
+
+싱글일때와 
+
+                    - multi 
+conv -dense sigmoid - single 로 출력 근데 열 추가로 이건 멀티라벨이야 추가.
+                - lavel number
+
+conv - cosine distance, dense-soft 트리플렛로스, cce  프리플렛로스 많이 썼고 같은 이미지 안가? 비교하는 컴패티션에서 이렇게 사용
+
+
+상관도
+co
+발리데이션스코어 
+
+모델하나로, tta 업이, cv 앙상블업시
+
+
+ahnkel  keras project template
+
+bolied
+파이토치 템플렛 서울대
+
+
+템플릿
+* https://github.com/moemen95/Pytorch-Project-Template
+* https://github.com/Ahmkel/Keras-Project-Template
+* https://github.com/victoresque/pytorch-template
+
+
+스터디원
+* https://github.com/Sangkwun
+* https://github.com/DShomin
+
+
+진행하는 커널
+* https://www.kaggle.com/c/imet-2019-fgvc6
+
+
+bcewithlogitsloss 
+* https://pytorch.org/docs/stable/nn.html#bcewithlogitsloss
+
+
+검색
+* inception network
+* triple net deep learning

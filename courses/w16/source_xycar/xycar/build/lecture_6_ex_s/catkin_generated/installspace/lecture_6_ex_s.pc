@@ -1,0 +1,8 @@
+prefix=/home/nvidia/xycar/install
+
+Name: lecture_6_ex_s
+Description: Description of lecture_6_ex_s
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/nvidia/xycar/install/lib 
+Requires: 

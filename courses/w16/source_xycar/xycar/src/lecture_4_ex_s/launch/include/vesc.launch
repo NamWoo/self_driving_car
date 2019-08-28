@@ -1,0 +1,37 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+  <group ns="vehicle_geometry">
+    <rosparam file="$(find racecar)/config/racecar-v2/vehicle_geometry.yaml" command="load" />
+    <node if="true" name="footprint" pkg="rostopic" type="rostopic" args="pub -l -f '$(find racecar)/config/racecar-v2/vehicle_footprint.yaml' footprint geometry_msgs/PolygonStamped" />
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base_link_to_imu" args="0.245 0.0 0.117    0.7071067811865475 0.7071067811865475 0.0 0.0 /base_link /base_imu_link" />
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base_link_to_laser" args="0.285 0.0 0.127 0.0 0.0 0.0 1.0 /base_link /laser" />
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base_link_to_base_footprint" args="0.0 0.0 0.0     0.0 0.0 0.0 1.0 /base_link /base_footprint" />
+  </group>
+
+  <node name="zero_ackermann_cmd" pkg="rostopic" type="rostopic" args="pub -r 4 ackermann_cmd_mux/input/default ackermann_msgs/AckermannDriveStamped '{header: auto, drive: {steering_angle: 0.0, speed: 0.0} }'" />
+
+  <node pkg="nodelet" type="nodelet" name="ackermann_cmd_mux_nodelet_manager" args="manager"/>
+
+  <node pkg="nodelet" type="nodelet" name="ackermann_cmd_mux" args="load ackermann_cmd_mux/AckermannCmdMuxNodelet ackermann_cmd_mux_nodelet_manager">
+    <param name="yaml_cfg_file" value="$(find racecar)/config/racecar-v2/mux.yaml"/>
+  </node>
+
+  <node pkg="racecar_safety_controller" type="safety_controller_node.py" name="safety_controller">
+    <remap from="ackermann_cmd_input" to="ackermann_cmd_mux/output" />
+  </node>
+  
+  <group ns="vesc">
+    <rosparam file="$(find racecar)/config/racecar-v2/vesc.yaml" command="load" />
+
+    <node pkg="vesc_ackermann" type="ackermann_to_vesc_node" name="ackermann_to_vesc">
+      <remap from="ackermann_cmd" to="/ackermann_cmd" />
+    </node>
+
+    <node pkg="vesc_driver" type="vesc_driver_node" name="vesc_driver" />
+
+    <node pkg="vesc_ackermann" type="vesc_to_odom_node" name="vesc_to_odom">
+      <remap from="wheelbase" to="/vehicle_geometry/wheelbase" />
+      <remap from="odom" to="/odom" />
+    </node>
+  </group>
+</launch>

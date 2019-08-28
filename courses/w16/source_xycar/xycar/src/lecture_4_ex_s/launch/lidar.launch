@@ -1,0 +1,15 @@
+<launch>
+  <node name="rplidarNode"          pkg="rplidar_ros"  type="rplidarNode" output="screen">
+    <param name="serial_port"         type="string" value="/dev/ttyRPL"/>
+<!-- change to 256000 if A3 -->
+    <param name="serial_baudrate"     type="int"    value="115200"/>
+    <param name="frame_id"            type="string" value="laser"/>
+    <param name="inverted"            type="bool"   value="false"/>
+    <param name="angle_compensate"    type="bool"   value="true"/>
+
+<!-- 2K : Standard, 4K : Express, 8K : Boost, 16K : Stability(X) -->
+    <param name="scan_mode"           type="string"   value="Express"/>
+  </node>
+
+  <node pkg="lecture_4_ex_s" type="lidar.py" name="Lidar_receive_node" output="screen" />
+</launch>

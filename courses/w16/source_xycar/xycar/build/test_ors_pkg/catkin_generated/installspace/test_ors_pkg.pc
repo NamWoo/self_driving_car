@@ -1,0 +1,8 @@
+prefix=/home/nvidia/xycar/install
+
+Name: test_ors_pkg
+Description: Description of test_ors_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/xycar/install/lib 
+Requires: 

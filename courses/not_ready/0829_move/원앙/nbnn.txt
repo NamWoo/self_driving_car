@@ -1,0 +1,30 @@
+exisopen
+
+설계 여러명이 설계하기 쉽지 않다.
+
+유스케이스 행동
+아키텍ㄹ쳐는 로스 말하고
+펑션설계는 클래스 다이어그램
+
+
+개발방범은 tdd test driven.
+테스트를 위한 방법
+
+
+전자부품 설계
+
+body component 설계
+
+Ryudolf mk-1의 macro gait s/w를 설계/개발/텟흐트 한다.
+desc
+goal
+delivery
+
+
+반세기만의 SCM 혁명
+
+chmod 124
+
+atlass
+
+jetbot collision avodi
