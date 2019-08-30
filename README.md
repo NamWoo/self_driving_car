@@ -6,12 +6,12 @@
 ![](./img/intro.jpg)
 
 * [한컴MDS Academy, 상세 커리큘럼](http://www.mdsacademy.co.kr/customer/board_view.php?board_idx=1585&schField=&schWord=nvidia&search_div=notice&size=10&page=1)
-* 우리는 전체 2기(올해 1기) (1년에 2기수 씩 뽑는듯?)
-
+* 작년(2018sus)에 딱 1기수로 시작해서 우리는 두 번째(2기)
+* 1년에 2기수 씩 뽑고 진행하고 있음
 
 <img src="./intro.jpg" width="60%" height="60%">
 
-* (.feat수업에 임하는 나의 자세)
+* (.feat Thor수업에 임하는 나의 자세)
 
 
 >"Never give up. Without commitment, you’ll never start, but more importantly, without consistency, you’ll never finish. It’s not easy. Keep working. Keep striving. Never give up. Fall down seven times, get up eight. Ease is a greater threat to progress than hardship, so keep moving, keep growing, keep learning. See you at work.”
@@ -25,14 +25,18 @@
 ## 교육과정 그리고 정리
 
 * 총 6개월 과정 (일 8시간, 총 24주)
-* 단계별로 여러 보드를 다루면서 학습하고 Embedded 환경에서 머신러닝을 가지고 전력최적화 s/w최적화를 이루며 스스로 주행하는 차량구현을 모토로 한다.
+* 단계별로 NVIDIA 플렛폼의 여러 보드를 다루면서 학습하고 Embedded 환경에서 머신러닝을 가지고 전력최적화 s/w최적화를 이루며 스스로 주행하는 차량구현을 모토로 한다.
   * ARM9 s3c2450 MDS2450 board
   * Infineon AURIX TC27CA + Lauterbach Trace32 debugging tool
-  * NVIDIA TX2
+  * NVIDIA Jetson TX1, TX2, NANO, Xavier, Drive PX2
 * C, C++, Python, git, linux, shell, make, kernel, module, device driver, machine learning, deep learning, keras, algorithm, optimization ...
 * 다뤄야하는 주제도 많고 거기다 어렵고 무겁고 끝도 없고...
 
 >버티는게 이기는거다. 매일매일 쏟아지는 지식들 속에서 흘려 버릴건 흘리고 새로운 걸로 다시 퐉퐉 채우면서 정리를 하자! 나중에 다시 보고 되새김하며 주어담길 바라며 ***과정이 끝날 즈음 남우에게 시작 때 남우가***
+
+## 6개월 중 4개월 교육
+
+* 5월13일 부터 11월1일 중 8월31일까지 교육 + 주간 프로젝트
 
 | Week| course             |        Abstract        |Linux and 실습장비|강사님|
 |:---:| :-----------------: | :-------------: |:---:|:---:|
@@ -46,18 +50,31 @@
 | 7| [차량용 OS 시스템 프로그래밍]           | 리눅스 시스템 프로그래밍|ARM9 S3C2450, MDS2450 |서광원|
 | 8| [자율주행기능구현을위한차량용SW개발]     |인피니온보드 시스템 이해 그리고 실습|Infineon AURIX TC27CA, Lauterbach Trace32|황호현
 | 9| [차량용 OS 디바이스 프로그래밍]         |모듈, 디바이스 드라이버|ARM9 S3C2450, MDS2450|김성영
-|10| [자율주행 개발을 위한 OpenCV](./courses/w10.md)|차선 인식, 추출, 검출, 재구성 ||왕진영
+|10| [자율주행 개발을 위한 OpenCV](./courses/w10.md)|차선 인식, 추출, 검출, 재구성||왕진영
 |11| [ROS활용 및 QT프로그래밍](./courses/w11.md)           |SLAM, QT멀티쓰레드|Raspberry Pi3|유신|
 |12| [NVIDIA TX보드를 활용한 딥러닝의 이해](./courses/w12.md)|Deep Learning, Tensorflow|NVIDIA Jetson TX1|최희욱|
 |13| [Digits서버와 Nvidia TX기반의 영상처리 딥러닝](./courses/w13.md)|Digits, Detection, Segmentation |NVIDIA TX1,TX2, Digits Server|김혜진|
 |14| [Drive PX2 딥러닝을 활용한 ADAS 개발](./courses/w14.md)|ADAS|NVIDIA Drive PX2|김혜진|
 |15| [자율주행 상황인지를 위한 TF Object Detection](./courses/w15.md)|SSD, Yolo|NVIDIA TX2, Xavier|김혜진, 왕진영|
-|16| [자율주행 모형차를 활용한 자율주행기술구현](./courses/w16.md)||모형차, ros, 시뮬레이터|김혜진,자이트론|
+|16| [자율주행 모형차를 활용한 자율주행기술구현](./courses/w16.md)|제어, ros, gazebo|모형차|김혜진,자이트론 대표님|
 |..|                                         | 앞으로 11월 1일까지...|
+
+
+## 6개월 중 2개월 프로젝트
+
+* 5월13일 부터 11월1일 중 9월2일부터 시작되는 프로젝트
+* 2개월간 하나의 주제를 가지고 ***맨토*** 님과 함께 2명 ~ 4명이 하나의 팀으로 진행  
+* ***엑시스소프트웨어엔지니어링***
+
+
+| Week| course             |        Abstract        |강사님|
+|:---:| :-----------------: | :-------------: |:---:|
+| | |
+
+
 
 <!-- | |<img src="./intro.jpg" height="150" width="190">|<img src="./intro.jpg" height="150" width="190">|<img src="./intro.jpg" height="150" width="190"> -->
 <!-- | |<img src="./courses/w12_DL_JetsonTX/img/w12intro1.jpg" height="150" width="190">| -->
-
 
 * 사용 칩, 보드 상세정보
 * 강사님 상세정보
@@ -65,10 +82,13 @@
 ***정리 밀렸다.. 다시 하나씩 복구 시작!***
 
 
-|||
-|:---:|:---:|
-|나의 주간 생활, 공부 리포트|[L I N K]
-|||
+
+
+
+
+
+
+
 
 
 
@@ -86,7 +106,7 @@
 |      | [재필](https://github.com/seomyunfeel) | [이경](https://github.com/leekyung91) | [창호](https://github.com/changhonam)  |       |  [윤수](https://github.com/susu210)  | [한빈](https://github.com/Mombin) |
 | 우성 | [민준](https://github.com/KimMinJoon)  |   [남우](https://github.com/NamWoo)   | [봉준](https://github.com/iambongjun)  |       | [동훈](https://github.com/d-h-k)|                                 |
 | 윤형 |        |   [경호](https://github.com/bkh751)   | [태우](https://github.com/taewookimmr) |       | [보경](https://github.com/boku-kim)  |                                 |
-|      |   [지선](https://github.com/LJSsun)    | [소현](https://github.com/So-Is-Cow)  |  [민지](https://github.com/youminji)   |       |                 현민                 |                                 |
+|      |   [지선](https://github.com/LJSsun)    | [소현](https://github.com/So-Is-Cow)  |  [민지](https://github.com/youminji)   |       |                 [현민](https://github.com/wellmin11)                 |                                 |
 | 강석 |                                      |[기찬](https://github.com/allowme2)|  |       |                 지윤                 |               규식                |
 
 * 최초시작 25명, 현재는 22명
