@@ -6,7 +6,7 @@
 ![](./img/intro.jpg)
 
 * [한컴MDS Academy, 상세 커리큘럼](http://www.mdsacademy.co.kr/customer/board_view.php?board_idx=1585&schField=&schWord=nvidia&search_div=notice&size=10&page=1)
-* 작년(2018sus)에 딱 1기수로 시작해서 우리는 두 번째(2기)
+* 작년(2018sus)에 딱 1기수로 시작해서 우리는 두 번째(2기) 
 * 1년에 2기수 씩 뽑고 진행하고 있음
 
 <img src="./intro.jpg" width="60%" height="60%">
@@ -63,7 +63,7 @@
 ## 6개월 중 2개월 프로젝트
 
 * 5월13일 부터 11월1일 중 9월2일부터 시작되는 프로젝트
-* 2개월간 하나의 주제를 가지고 ***맨토*** 님과 함께 2명 ~ 4명이 하나의 팀으로 진행  
+* 2개월간 하나의 주제를 가지고 ***맨토*** 님과 함께 2명~4명이 하나의 팀으로 진행  
 * ***엑시스소프트웨어엔지니어링***
 
 
