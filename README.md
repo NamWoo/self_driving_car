@@ -78,29 +78,32 @@
 
 * [발표영상](https://www.youtube.com/watch?v=PGaRAnsXU5g)
 * 발표자: 강우성(현 SK텔레시스)
+* 주제: Multi Robot SLAM
 
 ### 2조
 
 * [시연영상](https://www.youtube.com/watch?v=pBnLHHB0mOU)
 * [발표영상](https://youtu.be/ZcywU-9OZkA)
 * 발표자: 백경호(현 네이버랩스)
+* 주제: Restaurant Serving Robot
 
 ### 3팀
 
 * [시연영상](https://youtu.be/8st7E7VzmOo)
 * [발표영상](https://www.youtube.com/watch?v=1hkxfiee9Ss)
 * 발표자: [김민준](https://github.com/KimMinJoon)(현 엑시스소프트웨어엔지니어링)
-
+* 주제: 물류이동로봇 프로젝트 
 ### 4팀
 
 * [시연영상](https://www.youtube.com/watch?v=UlhkYoAeIZ0)
 * [발표영상](https://www.youtube.com/watch?v=5HDZMsNohss)
 * 발표자: 송재필()
-
+* 주제: Dog Biometric Identity Recognition System
 ### 5팀
 
 * [발표영상](https://www.youtube.com/watch?v=sRpzDEI7cE0)
 * 발표자: 조윤형()
+* 주제: Auto Pirot
 
 ### 6팀
 
