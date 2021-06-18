@@ -5,8 +5,9 @@
   
 ![](./img/intro.jpg)
 
-* 작년(2018)에 딱 1기수로 시작해서 우리는 두 번째(2기) 
-* 1년에 2기수 씩 뽑고 진행하고 있음
+* [2018년 IITP 혁신성장 청년인재 집중양성 - 자율주행차 H/W와 S/W 플랫폼 개발 전문가 및 실무프로젝트 과정](https://ezone.iitp.kr/common/co_0701/view?PMS_TSK_DGR_ID=2018-0-01743-001&cPage=&PMS_SRCHCHOICE1=ALL&PMS_SRCHTEXT1=&PMS_SRCHCHOICE2=&PMS_SRCHTEXT2=%ED%95%9C%EC%BB%B4&PMS_BEGDT=&PMS_ENDDT=&PMS_CHECK1=&PMS_CHECK2=&PMS_CHECK3=) 으로 시작
+* 우리는 두 번째인
+* 1년에 2기수 씩 뽑고 진행하고 있음 [2019년 IITP 혁신성장 청년인재 집중양성 - NVIDIA 플랫폼 기반 자율주행차 구현을 위한 SW개발 및 실무프로젝트 과정](https://ezone.iitp.kr/common/co_0701/view?PMS_TSK_DGR_ID=2019-0-01156-003&cPage=&PMS_SRCHCHOICE1=ALL&PMS_SRCHTEXT1=&PMS_SRCHCHOICE2=&PMS_SRCHTEXT2=%ED%95%9C%EC%BB%B4&PMS_BEGDT=&PMS_ENDDT=&PMS_CHECK1=&PMS_CHECK2=&PMS_CHECK3=)
 * [2021년 현재 뽑는 한컴아카데미, 상세 커리큘럼](http://www.saraminimage.co.kr/recruit/bbs_recruit4/hcmds_210309_recruit01.html)
 
 
