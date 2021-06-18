@@ -20,23 +20,12 @@
 
 
 
-
-
 ## 교육과정 그리고 정리
 
 * 총 6개월 과정 (일 8시간, 총 24주)
 * 단계별로 NVIDIA 플렛폼의 여러 보드를 다루면서 학습하고 Embedded 환경에서 머신러닝을 가지고 전력최적화 s/w최적화를 이루며 스스로 주행하는 차량구현을 모토로 한다.
-  * ARM9 s3c2450 MDS2450 board
-  * Infineon AURIX TC27CA
-    * Lauterbach Trace32 debugging tool
-  * NVIDIA Jetson TX1, TX2, NANO, Xavier, Drive PX2
-* C, C++, Python, git, linux, shell, make, kernel, module, device driver, machine learning, deep learning, keras, algorithm, optimization ...
-* 다뤄야하는 주제도 많고 거기다 어렵고 무겁고 끝도 없고...
-
-### 취업까지
-
-* 교육과정이 끝나고 2달간 프로젝트가 진행될 때 함께하는 맨토가 작년 기수는 유라, 경신 등 같이 자동차, 전장 1티어 기업들
-* 그래서 유라, 경신을 포함해서 많이 갔!
+* 4개월의 교육과정을 거치고 2개월의 실 프로젝트를 진행한다. 해당 기업에서 직접 개발을 진행한다거나 교육을 진행하거나
+* 작년에 함께 했던 맨토는 유라, 경신 같은 자율주행에 관심많은 전장 1티어(그래서 이쪽으로 취업을 많이 갔다)
 
 
 >버티는게 이기는거다. 매일매일 쏟아지는 지식들 속에서 흘려 버릴건 흘리고 새로운 걸로 다시 퐉퐉 채우면서 정리를 하자! 나중에 다시 보고 되새김하며 주어담길 바라며 ***과정이 끝날 즈음 남우에게 시작 때 남우가***
@@ -92,12 +81,14 @@
 * [발표영상](https://www.youtube.com/watch?v=1hkxfiee9Ss)
 * 발표자: [김민준](https://github.com/KimMinJoon)(현 엑시스소프트웨어엔지니어링)
 * 주제: 물류이동로봇 프로젝트 
+
 ### 4팀
 
 * [시연영상](https://www.youtube.com/watch?v=UlhkYoAeIZ0)
 * [발표영상](https://www.youtube.com/watch?v=5HDZMsNohss)
 * 발표자: 송재필()
 * 주제: Dog Biometric Identity Recognition System
+
 ### 5팀
 
 * [발표영상](https://www.youtube.com/watch?v=sRpzDEI7cE0)
