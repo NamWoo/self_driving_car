@@ -79,7 +79,7 @@
 
 * [시연영상](https://youtu.be/8st7E7VzmOo)
 * [발표영상](https://www.youtube.com/watch?v=1hkxfiee9Ss)
-* 발표자: [김민준](https://github.com/KimMinJoon)(현 엑시스소프트웨어엔지니어링)
+* 발표자: [김민준](https://github.com/KimMinJoon)
 * 주제: 물류이동로봇 프로젝트 
 
 ### 4팀
@@ -98,7 +98,7 @@
 ### 6팀
 
 * [발표영상](https://www.youtube.com/watch?v=Joh9nEMu7hM)
-* 발표자: 이현민(현 에스더블유엠)
+* 발표자: 이현민(현 HL Klemove, from 만도)
 
 
 <!-- 
